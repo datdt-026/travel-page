@@ -1,0 +1,248 @@
+{
+  "common": {
+    "siteName": "VietWay",
+    "home": "Startseite",
+    "destinations": "Reiseziele",
+    "attractions": "Sehenswürdigkeiten",
+    "itineraries": "Reiserouten",
+    "blog": "Blog",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "faq": "FAQ",
+    "search": "Suchen",
+    "viewAll": "Alle anzeigen",
+    "readMore": "Mehr lesen",
+    "share": "Teilen",
+    "loading": "Lädt...",
+    "error": "Etwas ist schief gelaufen",
+    "notFound": "Seite nicht gefunden",
+    "backHome": "Zurück zur Startseite",
+    "days": "Tage",
+    "gallery": "Fotogalerie",
+    "quickFacts": "Kurzinfo",
+    "continent": "Kontinent",
+    "language": "Sprache",
+    "currency": "Währung",
+    "timezone": "Zeitzone",
+    "bestTimeToVisit": "Beste Reisezeit",
+    "highlights": "Highlights",
+    "cityInfo": "Stadtinfo",
+    "country": "Land",
+    "population": "Bevölkerung",
+    "viewItineraries": "Reiserouten ansehen",
+    "duration": "Dauer",
+    "backTo": "Zurück zu",
+    "noResults": "Keine Ergebnisse gefunden",
+    "location": "Standort",
+    "address": "Adresse",
+    "free": "Kostenlos",
+    "company": "Unternehmen",
+    "partnership": "Partnerschaft",
+    "resources": "Ressourcen",
+    "expertise": "Unsere Expertise",
+    "sustainability": "Nachhaltigkeit",
+    "caseStudies": "Fallstudien",
+    "partners": "Partner werden",
+    "partnerInquiry": "Partneranfrage"
+  },
+  "home": {
+    "heroTitle": "Entdecke die Welt",
+    "heroDescription": "Erkunde atemberaubende Reiseziele, plane unvergessliche Reisen und schaffe Erinnerungen, die ein Leben lang halten, mit unseren umfassenden Reiseführern.",
+    "exploreDestinations": "Reiseziele erkunden",
+    "viewItineraries": "Reiserouten ansehen",
+    "featuredCountries": "Empfohlene Länder",
+    "featuredCities": "Empfohlene Städte",
+    "featuredItineraries": "Empfohlene Reiserouten"
+  },
+  "destinations": {
+    "title": "Reiseziele",
+    "description": "Erkunde unsere handverlesenen Reiseziele auf der ganzen Welt",
+    "countries": "Länder",
+    "cities": "Städte",
+    "noResults": "Keine Reiseziele gefunden",
+    "popularCities": "Beliebte Städte"
+  },
+  "attractions": {
+    "title": "Sehenswürdigkeiten",
+    "description": "Entdecke erstaunliche Sehenswürdigkeiten und Aktivitäten",
+    "noResults": "Keine Sehenswürdigkeiten gefunden",
+    "thingsToDo": "Aktivitäten",
+    "visitorTips": "Besuchertipps",
+    "visitorInfo": "Besucherinformationen",
+    "openingHours": "Öffnungszeiten",
+    "ticketPrice": "Eintrittspreis",
+    "search": "Sehenswürdigkeiten suchen...",
+    "filters": "Filter",
+    "category": "Kategorie",
+    "city": "Stadt",
+    "rating": "Bewertung",
+    "allCategories": "Alle Kategorien",
+    "allCities": "Alle Städte",
+    "allRatings": "Alle Bewertungen",
+    "loadMore": "Mehr laden",
+    "showing": "Zeige",
+    "of": "von",
+    "clearFilters": "Filter löschen"
+  },
+  "itineraries": {
+    "title": "Reiserouten",
+    "description": "Finde die perfekte Reiseroute für dein nächstes Abenteuer",
+    "days": "Tage",
+    "noResults": "Keine Reiserouten gefunden",
+    "including": "Reiserouten mit",
+    "dayByDay": "Tag-für-Tag Reiseroute",
+    "tripDetails": "Reisedetails",
+    "difficulty": "Schwierigkeit",
+    "budget": "Budget",
+    "travelStyle": "Reisestil",
+    "accommodation": "Unterkunft"
+  },
+  "listing": {
+    "filters": "Filter",
+    "clearFilters": "Alle löschen",
+    "loadMore": "Mehr laden",
+    "region": "Region",
+    "travelStyle": "Reisestil",
+    "season": "Jahreszeit",
+    "type": "Typ",
+    "location": "Standort",
+    "duration": "Dauer",
+    "pace": "Tempo",
+    "theme": "Thema"
+  },
+  "cities": {
+    "title": "Städte erkunden",
+    "description": "Entdecke pulsierende Städte weltweit",
+    "noResults": "Keine Städte gefunden",
+    "localTips": "Lokale Tipps"
+  },
+  "countries": {
+    "title": "Länder erkunden",
+    "description": "Erkunde Reiseziele nach Land",
+    "noResults": "Keine Länder gefunden"
+  },
+  "blog": {
+    "title": "Reiseblog",
+    "description": "Lies unsere neuesten Reisegeschichten und Tipps",
+    "noResults": "Keine Artikel gefunden",
+    "subtitle": "Tipps, Guides und inspirierende Geschichten aus aller Welt",
+    "by": "Von",
+    "backToBlog": "Zurück zum Blog",
+    "tags": "Tags",
+    "writtenBy": "Geschrieben von",
+    "contributor": "Mitwirkender",
+    "published": "Veröffentlicht",
+    "readingTime": "Lesezeit",
+    "category": "Kategorie"
+  },
+  "about": {
+    "title": "Über uns",
+    "description": "Erfahre mehr über VietWay und unsere Mission",
+    "heroSubtitle": "Wir schaffen bedeutungsvolle Reiseerlebnisse, die Sie mit den außergewöhnlichsten Reisezielen und Kulturen der Welt verbinden.",
+    "intro": {
+      "title": "Ihre Reise beginnt hier",
+      "content": "Mit einer Leidenschaft für authentisches Reisen gegründet, hilft VietWay Reisenden seit über einem Jahrzehnt, die verborgenen Schätze der Welt zu entdecken. Wir glauben, dass die besten Reisen diejenigen sind, die einen bleibenden Eindruck hinterlassen—sowohl beim Reisenden als auch bei den Gemeinschaften, die sie besuchen."
+    },
+    "story": {
+      "eyebrow": "Unsere Geschichte",
+      "title": "Von Fernweh zu Zweck",
+      "content": "Was als kleine Gruppe von Reisebegeisterten begann, ist zu einem vertrauenswürdigen Reisepartner für Tausende von Entdeckern weltweit geworden. Unsere Gründer, selbst erfahrene Reisende, bemerkten eine Lücke im Markt—Reisende, die mehr als nur einen Urlaub suchten. Sie wollten Transformation, Verbindung und Geschichten, die es wert sind, erzählt zu werden.",
+      "highlight": "Über 10 Jahre unvergessliche Reisen in mehr als 50 Ländern."
+    },
+    "mission": {
+      "eyebrow": "Unsere Mission",
+      "title": "Unvergessliche Reiseerlebnisse schaffen",
+      "content": "Wir glauben, dass Reisen das Leben verändern kann. Unsere Mission ist es, Reisende mit authentischen Erfahrungen zu verbinden, die über den gewöhnlichen Touristenpfad hinausgehen und bedeutungsvolle Verbindungen mit lokalen Kulturen und Gemeinschaften schaffen."
+    },
+    "values": {
+      "eyebrow": "Unsere Philosophie",
+      "title": "Was uns auszeichnet",
+      "curated": {
+        "icon": "🌍",
+        "title": "Kuratierte Erlebnisse",
+        "description": "Jedes Reiseziel wird sorgfältig ausgewählt für authentische, bedeutungsvolle Begegnungen, die über gewöhnliches Reisen hinausgehen."
+      },
+      "personal": {
+        "icon": "❤️",
+        "title": "Persönliche Note",
+        "description": "Maßgeschneiderte Reiserouten, die auf Ihre Vorlieben abgestimmt sind und Reisen so einzigartig wie Sie schaffen."
+      },
+      "trusted": {
+        "icon": "✓",
+        "title": "Vertrauenswürdige Expertise",
+        "description": "Jahrelange Erfahrung für reibungslose, sorgenfreie Reisen mit Unterstützung bei jedem Schritt."
+      },
+      "sustainable": {
+        "icon": "🌱",
+        "title": "Nachhaltiges Reisen",
+        "description": "Engagiert für verantwortungsvollen Tourismus, der lokalen Gemeinschaften zugutekommt und Reiseziele für zukünftige Generationen erhält."
+      }
+    },
+    "stats": {
+      "travelers": { "number": "10.000+", "label": "Zufriedene Reisende" },
+      "destinations": { "number": "50+", "label": "Reiseziele" },
+      "years": { "number": "10+", "label": "Jahre Erfahrung" },
+      "rating": { "number": "4.9", "label": "Durchschnittsbewertung" }
+    },
+    "whyChoose": {
+      "eyebrow": "Warum uns wählen",
+      "title": "Reisen Sie mit Vertrauen",
+      "items": [
+        { "title": "Lokale Expertenführer", "description": "Verbinden Sie sich mit leidenschaftlichen Einheimischen, die Insiderwissen und verborgene Schätze teilen." },
+        { "title": "24/7 Support", "description": "Unser engagiertes Team ist immer verfügbar, um Ihnen zu helfen, wo auch immer Sie sind." },
+        { "title": "Flexible Planung", "description": "Passen Sie jeden Aspekt Ihrer Reise an Ihre Vorlieben und Ihr Tempo an." },
+        { "title": "Bestes Preis-Leistungs-Verhältnis", "description": "Premium-Erlebnisse zu wettbewerbsfähigen Preisen ohne versteckte Gebühren." }
+      ]
+    },
+    "cta": {
+      "title": "Bereit, Ihre Reise zu beginnen?",
+      "subtitle": "Lassen Sie uns Ihnen bei der Planung Ihres nächsten unvergesslichen Abenteuers helfen.",
+      "primaryButton": "Loslegen",
+      "secondaryButton": "Reiseziele erkunden"
+    }
+  },
+  "contact": {
+    "title": "Kontaktiere uns",
+    "description": "Nimm Kontakt mit unserem Team auf",
+    "subtitle": "Hast du eine Frage oder einen Vorschlag? Wir freuen uns von dir zu hören.",
+    "sendMessage": "Sende uns eine Nachricht",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail-Adresse",
+    "message": "Nachricht",
+    "send": "Nachricht senden",
+    "getInTouch": "Kontakt aufnehmen",
+    "emailUs": "E-Mail an uns",
+    "office": "Büro",
+    "hours": "Geschäftszeiten",
+    "callUs": "Ruf uns an",
+    "yourName": "Dein Name",
+    "yourEmail": "Deine E-Mail",
+    "subject": "Betreff",
+    "yourMessage": "Deine Nachricht",
+    "name": "Name"
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "description": "Finde Antworten auf häufige Fragen",
+    "subtitle": "Finde Antworten auf häufige Fragen zur Reiseplanung.",
+    "stillHaveQuestions": "Noch Fragen?",
+    "contactUs": "Nicht gefunden, wonach du suchst? Unser Team hilft dir gerne weiter.",
+    "searchPlaceholder": "Häufig gestellte Fragen durchsuchen..."
+  },
+  "footer": {
+    "description": "Dein ultimativer Reisebegleiter zur Entdeckung erstaunlicher Reiseziele weltweit.",
+    "quickLinks": "Schnelllinks",
+    "explore": "Erkunden",
+    "support": "Support",
+    "newsletter": "Newsletter",
+    "newsletterDescription": "Abonniere unseren Newsletter für Reisetipps und Updates.",
+    "emailPlaceholder": "E-Mail eingeben",
+    "subscribe": "Abonnieren",
+    "copyright": "© {year} VietWay. Alle Rechte vorbehalten."
+  },
+  "seo": {
+    "defaultTitle": "Entdecke die Welt",
+    "defaultDescription": "Entdecke erstaunliche Reiseziele, plane deine perfekte Reise und erkunde die Welt mit unseren umfassenden Reiseführern."
+  }
+}

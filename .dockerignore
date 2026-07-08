@@ -1,0 +1,52 @@
+# Dependencies
+node_modules
+**/node_modules
+
+# Build outputs
+.next
+**/dist
+**/build
+**/.next
+
+# Development files
+.git
+.gitignore
+*.md
+!README.md
+
+# Environment files (will be passed via docker-compose)
+.env
+.env.*
+!.env.docker.example
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Testing
+coverage
+**/e2e
+**/*.spec.ts
+**/*.test.ts
+playwright.config.ts
+playwright-report
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+.docker
+
+# Misc
+.turbo
+*.tsbuildinfo

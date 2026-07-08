@@ -1,0 +1,42 @@
+{
+  "name": "travel-seo-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Large-scale SEO travel site with Next.js 14 and PayloadCMS 2",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "pnpm@8.15.0",
+  "scripts": {
+    "=========== MIGRATIONS (run separately, never in dev loop) ===========": "",
+    "migrate:cms": "pnpm --filter @travel/cms migrate",
+    "migrate:cms:ci": "pnpm --filter @travel/cms migrate:ci",
+    "migrate:cms:status": "pnpm --filter @travel/cms migrate:status",
+    "migrate:cms:create": "pnpm --filter @travel/cms migrate:create",
+    
+    "=========== DEVELOPMENT (non-interactive, CI=true) ===========": "",
+    "dev:cms": "pnpm --filter @travel/cms dev",
+    "dev:web": "pnpm --filter @travel/web dev",
+    "dev": "pnpm run dev:cms & pnpm run dev:web",
+    
+    "=========== BUILD ===========": "",
+    "build:cms": "pnpm --filter @travel/cms build",
+    "build:web": "pnpm --filter @travel/web build",
+    "build": "pnpm run build:cms && pnpm run build:web",
+    
+    "=========== PRODUCTION ===========": "",
+    "start:cms": "pnpm --filter @travel/cms start",
+    "start:web": "pnpm --filter @travel/web start",
+    "start": "pnpm run start:cms & pnpm run start:web",
+    
+    "=========== UTILITIES ===========": "",
+    "seed": "pnpm --filter @travel/cms seed",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "clean": "pnpm -r clean"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}

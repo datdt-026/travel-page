@@ -1,0 +1,248 @@
+{
+  "common": {
+    "siteName": "VietWay",
+    "home": "Accueil",
+    "destinations": "Destinations",
+    "attractions": "Attractions",
+    "itineraries": "Itinéraires",
+    "blog": "Blog",
+    "about": "À propos",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "search": "Rechercher",
+    "viewAll": "Voir tout",
+    "readMore": "Lire la suite",
+    "share": "Partager",
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "notFound": "Page non trouvée",
+    "backHome": "Retour à l'accueil",
+    "days": "jours",
+    "gallery": "Galerie photo",
+    "quickFacts": "Infos rapides",
+    "continent": "Continent",
+    "language": "Langue",
+    "currency": "Devise",
+    "timezone": "Fuseau horaire",
+    "bestTimeToVisit": "Meilleure période pour visiter",
+    "highlights": "Points forts",
+    "cityInfo": "Infos ville",
+    "country": "Pays",
+    "population": "Population",
+    "viewItineraries": "Voir les itinéraires",
+    "duration": "Durée",
+    "backTo": "Retour à",
+    "noResults": "Aucun résultat trouvé",
+    "location": "Emplacement",
+    "address": "Adresse",
+    "free": "Gratuit",
+    "company": "Entreprise",
+    "partnership": "Partenariat",
+    "resources": "Ressources",
+    "expertise": "Notre Expertise",
+    "sustainability": "Durabilité",
+    "caseStudies": "Études de Cas",
+    "partners": "Devenir Partenaire",
+    "partnerInquiry": "Demande de Partenariat"
+  },
+  "home": {
+    "heroTitle": "Découvrez le Monde",
+    "heroDescription": "Explorez des destinations à couper le souffle, planifiez des voyages inoubliables et créez des souvenirs qui durent toute une vie avec nos guides de voyage complets.",
+    "exploreDestinations": "Explorer les destinations",
+    "viewItineraries": "Voir les itinéraires",
+    "featuredCountries": "Pays en vedette",
+    "featuredCities": "Villes en vedette",
+    "featuredItineraries": "Itinéraires en vedette"
+  },
+  "destinations": {
+    "title": "Destinations",
+    "description": "Explorez nos destinations triées sur le volet à travers le monde",
+    "countries": "Pays",
+    "cities": "Villes",
+    "noResults": "Aucune destination trouvée",
+    "popularCities": "Villes populaires"
+  },
+  "attractions": {
+    "title": "Attractions",
+    "description": "Découvrez des attractions incroyables et des choses à faire",
+    "noResults": "Aucune attraction trouvée",
+    "thingsToDo": "Activités",
+    "visitorTips": "Conseils aux visiteurs",
+    "visitorInfo": "Informations visiteurs",
+    "openingHours": "Heures d'ouverture",
+    "ticketPrice": "Prix du billet",
+    "search": "Rechercher des attractions...",
+    "filters": "Filtres",
+    "category": "Catégorie",
+    "city": "Ville",
+    "rating": "Note",
+    "allCategories": "Toutes les catégories",
+    "allCities": "Toutes les villes",
+    "allRatings": "Toutes les notes",
+    "loadMore": "Charger plus",
+    "showing": "Affichage",
+    "of": "sur",
+    "clearFilters": "Effacer les filtres"
+  },
+  "itineraries": {
+    "title": "Itinéraires",
+    "description": "Trouvez l'itinéraire de voyage parfait pour votre prochaine aventure",
+    "days": "jours",
+    "noResults": "Aucun itinéraire trouvé",
+    "including": "Itinéraires incluant",
+    "dayByDay": "Itinéraire jour par jour",
+    "tripDetails": "Détails du voyage",
+    "difficulty": "Difficulté",
+    "budget": "Budget",
+    "travelStyle": "Style de voyage",
+    "accommodation": "Hébergement"
+  },
+  "listing": {
+    "filters": "Filtres",
+    "clearFilters": "Tout effacer",
+    "loadMore": "Charger plus",
+    "region": "Région",
+    "travelStyle": "Style de voyage",
+    "season": "Saison",
+    "type": "Type",
+    "location": "Emplacement",
+    "duration": "Durée",
+    "pace": "Rythme",
+    "theme": "Thème"
+  },
+  "cities": {
+    "title": "Explorer les villes",
+    "description": "Découvrez des villes dynamiques du monde entier",
+    "noResults": "Aucune ville trouvée",
+    "localTips": "Conseils locaux"
+  },
+  "countries": {
+    "title": "Explorer les pays",
+    "description": "Explorez les destinations de voyage par pays",
+    "noResults": "Aucun pays trouvé"
+  },
+  "blog": {
+    "title": "Blog de Voyage",
+    "description": "Lisez nos dernières histoires et conseils de voyage",
+    "noResults": "Aucun article trouvé",
+    "subtitle": "Conseils, guides et histoires inspirantes du monde entier",
+    "by": "Par",
+    "backToBlog": "Retour au Blog",
+    "tags": "Tags",
+    "writtenBy": "Écrit par",
+    "contributor": "Contributeur",
+    "published": "Publié",
+    "readingTime": "Temps de lecture",
+    "category": "Catégorie"
+  },
+  "about": {
+    "title": "À propos de nous",
+    "description": "En savoir plus sur VietWay et notre mission",
+    "heroSubtitle": "Nous créons des expériences de voyage significatives qui vous connectent aux destinations et cultures les plus extraordinaires du monde.",
+    "intro": {
+      "title": "Votre voyage commence ici",
+      "content": "Fondé avec une passion pour le voyage authentique, VietWay aide les voyageurs à découvrir les joyaux cachés du monde depuis plus d'une décennie. Nous croyons que les meilleurs voyages sont ceux qui laissent un impact durable—sur le voyageur et les communautés qu'il visite."
+    },
+    "story": {
+      "eyebrow": "Notre Histoire",
+      "title": "De la passion au but",
+      "content": "Ce qui a commencé comme un petit groupe de passionnés de voyage est devenu un partenaire de voyage de confiance pour des milliers d'explorateurs dans le monde entier. Nos fondateurs, eux-mêmes voyageurs chevronnés, ont remarqué un vide sur le marché—des voyageurs recherchant plus qu'une simple vacance. Ils voulaient une transformation, une connexion et des histoires qui valent la peine d'être racontées.",
+      "highlight": "Plus de 10 ans de création de voyages inoubliables dans plus de 50 pays."
+    },
+    "mission": {
+      "eyebrow": "Notre Mission",
+      "title": "Créer des expériences de voyage inoubliables",
+      "content": "Nous croyons que le voyage a le pouvoir de transformer des vies. Notre mission est de connecter les voyageurs à des expériences authentiques qui vont au-delà du chemin touristique ordinaire, créant des liens significatifs avec les cultures et communautés locales."
+    },
+    "values": {
+      "eyebrow": "Notre Philosophie",
+      "title": "Ce qui nous distingue",
+      "curated": {
+        "icon": "🌍",
+        "title": "Expériences Sélectionnées",
+        "description": "Chaque destination est soigneusement choisie pour des rencontres authentiques et significatives qui transcendent le voyage ordinaire."
+      },
+      "personal": {
+        "icon": "❤️",
+        "title": "Touche Personnelle",
+        "description": "Des itinéraires sur mesure conçus selon vos préférences, créant des voyages aussi uniques que vous."
+      },
+      "trusted": {
+        "icon": "✓",
+        "title": "Expertise Fiable",
+        "description": "Des années d'expérience garantissant des voyages sans souci avec un soutien à chaque étape."
+      },
+      "sustainable": {
+        "icon": "🌱",
+        "title": "Voyage Durable",
+        "description": "Engagés dans un tourisme responsable qui profite aux communautés locales et préserve les destinations pour les générations futures."
+      }
+    },
+    "stats": {
+      "travelers": { "number": "10 000+", "label": "Voyageurs Satisfaits" },
+      "destinations": { "number": "50+", "label": "Destinations" },
+      "years": { "number": "10+", "label": "Années d'Expérience" },
+      "rating": { "number": "4.9", "label": "Note Moyenne" }
+    },
+    "whyChoose": {
+      "eyebrow": "Pourquoi Nous Choisir",
+      "title": "Voyagez en Toute Confiance",
+      "items": [
+        { "title": "Guides Locaux Experts", "description": "Connectez-vous avec des locaux passionnés qui partagent leurs connaissances et secrets." },
+        { "title": "Support 24/7", "description": "Notre équipe dédiée est toujours disponible pour vous aider, où que vous soyez." },
+        { "title": "Planification Flexible", "description": "Personnalisez chaque aspect de votre voyage selon vos préférences et votre rythme." },
+        { "title": "Meilleur Rapport Qualité-Prix", "description": "Des expériences premium à des prix compétitifs sans frais cachés." }
+      ]
+    },
+    "cta": {
+      "title": "Prêt à commencer votre voyage ?",
+      "subtitle": "Laissez-nous vous aider à planifier votre prochaine aventure inoubliable.",
+      "primaryButton": "Commencer",
+      "secondaryButton": "Explorer les Destinations"
+    }
+  },
+  "contact": {
+    "title": "Nous contacter",
+    "description": "Contactez notre équipe",
+    "subtitle": "Vous avez une question ou une suggestion ? Nous serions ravis de vous entendre.",
+    "sendMessage": "Envoyez-nous un message",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Adresse e-mail",
+    "message": "Message",
+    "send": "Envoyer le message",
+    "getInTouch": "Contactez-nous",
+    "emailUs": "Envoyez-nous un e-mail",
+    "office": "Bureau",
+    "hours": "Heures d'ouverture",
+    "callUs": "Appelez-nous",
+    "yourName": "Votre nom",
+    "yourEmail": "Votre e-mail",
+    "subject": "Sujet",
+    "yourMessage": "Votre message",
+    "name": "Nom"
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "description": "Trouvez des réponses aux questions courantes",
+    "subtitle": "Trouvez des réponses aux questions courantes sur la planification de voyage.",
+    "stillHaveQuestions": "Encore des questions ?",
+    "contactUs": "Vous ne trouvez pas ce que vous cherchez ? Notre équipe est là pour vous aider.",
+    "searchPlaceholder": "Rechercher dans les questions fréquentes..."
+  },
+  "footer": {
+    "description": "Votre compagnon de voyage ultime pour découvrir des destinations incroyables dans le monde entier.",
+    "quickLinks": "Liens rapides",
+    "explore": "Explorer",
+    "support": "Support",
+    "newsletter": "Newsletter",
+    "newsletterDescription": "Abonnez-vous à notre newsletter pour des conseils et mises à jour de voyage.",
+    "emailPlaceholder": "Entrez votre email",
+    "subscribe": "S'abonner",
+    "copyright": "© {year} VietWay. Tous droits réservés."
+  },
+  "seo": {
+    "defaultTitle": "Découvrez le Monde",
+    "defaultDescription": "Découvrez des destinations incroyables, planifiez votre voyage parfait et explorez le monde avec nos guides de voyage complets."
+  }
+}

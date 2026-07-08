@@ -1,0 +1,272 @@
+{
+  "common": {
+    "siteName": "VietWay",
+    "home": "Home",
+    "destinations": "Destinations",
+    "attractions": "Attractions",
+    "itineraries": "Itineraries",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "search": "Search",
+    "viewAll": "View all",
+    "readMore": "Read more",
+    "share": "Share",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "notFound": "Page not found",
+    "backHome": "Back to Home",
+    "days": "days",
+    "gallery": "Photo Gallery",
+    "quickFacts": "Quick Facts",
+    "continent": "Continent",
+    "language": "Language",
+    "currency": "Currency",
+    "timezone": "Timezone",
+    "bestTimeToVisit": "Best Time to Visit",
+    "highlights": "Highlights",
+    "cityInfo": "City Info",
+    "country": "Country",
+    "population": "Population",
+    "viewItineraries": "View Itineraries",
+    "duration": "Duration",
+    "backTo": "Back to",
+    "noResults": "No results found",
+    "location": "Location",
+    "address": "Address",
+    "free": "Free",
+    "company": "Company",
+    "partnership": "Partnership",
+    "resources": "Resources",
+    "expertise": "Our Expertise",
+    "sustainability": "Sustainability",
+    "caseStudies": "Case Studies",
+    "partners": "Partner With Us",
+    "partnerInquiry": "Partner Inquiry",
+    "cities": "Cities",
+    "featured": "Featured",
+    "explore": "Explore",
+    "languageLabel": "Language"
+  },
+  "home": {
+    "heroTitle": "Discover the World",
+    "heroDescription": "Explore breathtaking destinations, plan unforgettable trips, and create memories that last a lifetime with our comprehensive travel guides.",
+    "exploreDestinations": "Explore Destinations",
+    "viewItineraries": "View Itineraries",
+    "featuredCountries": "Featured Countries",
+    "featuredCities": "Featured Cities",
+    "featuredItineraries": "Featured Itineraries"
+  },
+  "destinations": {
+    "title": "Destinations",
+    "description": "Explore our handpicked destinations around the world",
+    "countries": "Countries",
+    "cities": "Cities",
+    "noResults": "No destinations found",
+    "popularCities": "Popular Cities"
+  },
+  "attractions": {
+    "title": "Attractions",
+    "description": "Discover amazing attractions and things to do",
+    "noResults": "No attractions found",
+    "thingsToDo": "Things to Do",
+    "visitorTips": "Visitor Tips",
+    "visitorInfo": "Visitor Information",
+    "openingHours": "Opening Hours",
+    "ticketPrice": "Ticket Price",
+    "search": "Search attractions...",
+    "filters": "Filters",
+    "category": "Category",
+    "city": "City",
+    "rating": "Rating",
+    "allCategories": "All Categories",
+    "allCities": "All Cities",
+    "allRatings": "All Ratings",
+    "loadMore": "Load More",
+    "showing": "Showing",
+    "of": "of",
+    "clearFilters": "Clear All Filters",
+    "howToExperience": "How to experience this place",
+    "practicalNotes": "Practical notes",
+    "alsoInRegion": "Also in this region",
+    "visitDuration": "Suggested time"
+  },
+  "itineraries": {
+    "title": "Itineraries",
+    "description": "Find the perfect travel itinerary for your next adventure",
+    "days": "days",
+    "noResults": "No itineraries found",
+    "including": "Itineraries Including",
+    "dayByDay": "Day-by-Day Itinerary",
+    "tripDetails": "Trip Details",
+    "difficulty": "Difficulty",
+    "budget": "Budget",
+    "travelStyle": "Travel Style",
+    "accommodation": "Accommodation"
+  },
+  "listing": {
+    "filters": "Filters",
+    "clearFilters": "Clear all",
+    "loadMore": "Load more",
+    "region": "Region",
+    "travelStyle": "Travel Style",
+    "season": "Season",
+    "type": "Type",
+    "location": "Location",
+    "duration": "Duration",
+    "pace": "Pace",
+    "theme": "Theme"
+  },
+  "cities": {
+    "title": "Explore Cities",
+    "description": "Discover vibrant cities around the world",
+    "noResults": "No cities found",
+    "localTips": "Local Tips"
+  },
+  "countries": {
+    "title": "Explore Countries",
+    "description": "Explore travel destinations by country",
+    "noResults": "No countries found"
+  },
+  "blog": {
+    "title": "Travel Blog",
+    "description": "Read our latest travel stories and tips",
+    "noResults": "No articles found",
+    "subtitle": "Tips, guides, and inspiring stories from around the world",
+    "by": "By",
+    "backToBlog": "Back to Blog",
+    "tags": "Tags",
+    "writtenBy": "Written By",
+    "contributor": "Contributor",
+    "published": "Published",
+    "readingTime": "Reading Time",
+    "category": "Category"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Learn more about VietWay and our mission",
+    "heroSubtitle": "We craft meaningful travel experiences that connect you with the world's most extraordinary destinations and cultures.",
+    "intro": {
+      "title": "Your Journey Begins Here",
+      "content": "Founded with a passion for authentic travel, VietWay has been helping travelers discover the world's hidden gems for over a decade. We believe that the best journeys are those that leave a lasting impact—on both the traveler and the communities they visit."
+    },
+    "story": {
+      "eyebrow": "Our Story",
+      "title": "From Wanderlust to Purpose",
+      "content": "What started as a small group of travel enthusiasts has grown into a trusted travel partner for thousands of explorers worldwide. Our founders, seasoned travelers themselves, noticed a gap in the market—travelers seeking more than just a vacation. They wanted transformation, connection, and stories worth telling. That's exactly what we deliver.",
+      "highlight": "Over 10 years of creating unforgettable journeys across 50+ countries."
+    },
+    "mission": {
+      "eyebrow": "Our Mission",
+      "title": "Crafting Unforgettable Travel Experiences",
+      "content": "We believe that travel has the power to transform lives. Our mission is to connect travelers with authentic experiences that go beyond the ordinary tourist path, creating meaningful connections with local cultures and communities."
+    },
+    "values": {
+      "eyebrow": "Our Philosophy",
+      "title": "What Sets Us Apart",
+      "curated": {
+        "icon": "🌍",
+        "title": "Curated Experiences",
+        "description": "Every destination handpicked for authentic, meaningful encounters that transcend ordinary travel."
+      },
+      "personal": {
+        "icon": "❤️",
+        "title": "Personal Touch",
+        "description": "Tailored itineraries designed around your preferences, creating journeys as unique as you are."
+      },
+      "trusted": {
+        "icon": "✓",
+        "title": "Trusted Expertise",
+        "description": "Years of experience ensuring seamless, worry-free travel with support every step of the way."
+      },
+      "sustainable": {
+        "icon": "🌱",
+        "title": "Sustainable Travel",
+        "description": "Committed to responsible tourism that benefits local communities and preserves destinations for future generations."
+      }
+    },
+    "stats": {
+      "travelers": { "number": "10,000+", "label": "Happy Travelers" },
+      "destinations": { "number": "50+", "label": "Destinations" },
+      "years": { "number": "10+", "label": "Years Experience" },
+      "rating": { "number": "4.9", "label": "Average Rating" }
+    },
+    "whyChoose": {
+      "eyebrow": "Why Choose Us",
+      "title": "Travel With Confidence",
+      "items": [
+        { "title": "Expert Local Guides", "description": "Connect with passionate locals who share insider knowledge and hidden gems." },
+        { "title": "24/7 Support", "description": "Our dedicated team is always available to assist you, wherever you are." },
+        { "title": "Flexible Planning", "description": "Customize every aspect of your journey to match your preferences and pace." },
+        { "title": "Best Value", "description": "Premium experiences at competitive prices with no hidden fees." }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Start Your Journey?",
+      "subtitle": "Let us help you plan your next unforgettable adventure.",
+      "primaryButton": "Get Started",
+      "secondaryButton": "Contact Us"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with our team",
+    "subtitle": "Have a question or suggestion? We'd love to hear from you.",
+    "sendMessage": "Send Us a Message",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email Address",
+    "message": "Message",
+    "send": "Send Message",
+    "getInTouch": "Get in Touch",
+    "emailUs": "Email Us",
+    "office": "Office",
+    "hours": "Business Hours",
+    "callUs": "Call Us",
+    "yourName": "Your Name",
+    "yourEmail": "Your Email",
+    "subject": "Subject",
+    "yourMessage": "Your Message",
+    "name": "Name"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Find answers to common questions",
+    "subtitle": "Find answers to common questions about travel planning.",
+    "stillHaveQuestions": "Still have questions?",
+    "contactUs": "Can't find what you're looking for? Our team is here to help.",
+    "searchPlaceholder": "Search frequently asked questions..."
+  },
+  "footer": {
+    "description": "Your ultimate travel companion for discovering amazing destinations worldwide.",
+    "quickLinks": "Quick Links",
+    "explore": "Explore",
+    "support": "Support",
+    "newsletter": "Newsletter",
+    "newsletterDescription": "Subscribe to our newsletter for travel tips and updates.",
+    "emailPlaceholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "copyright": "© {year} VietWay. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsConditions": "Terms & Conditions",
+    "luxuryTravelPartner": "Luxury Travel Partner",
+    "telephone": "Telephone"
+  },
+  "contactToolbar": {
+    "ariaLabel": "Contact options",
+    "speakWithUs": "Speak with us",
+    "writeToUs": "Write to us",
+    "sendNote": "Send a note",
+    "requestCall": "Request a call",
+    "startConversation": "Start a conversation",
+    "openContactOptions": "Open contact options",
+    "close": "Close",
+    "howCanWeHelp": "How can we help?",
+    "readyMessage": "We're here when you're ready"
+  },
+  "seo": {
+    "defaultTitle": "Discover the World",
+    "defaultDescription": "Discover amazing destinations, plan your perfect trip, and explore the world with our comprehensive travel guides."
+  }
+}

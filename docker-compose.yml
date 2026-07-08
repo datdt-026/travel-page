@@ -1,0 +1,81 @@
+version: '3.8'
+
+services:
+  
+
+  # PayloadCMS Backend
+  cms:
+    build:
+      context: .
+      dockerfile: apps/cms/Dockerfile
+      args:
+        PAYLOAD_PUBLIC_SERVER_URL: ${PAYLOAD_PUBLIC_SERVER_URL:-https://vietwaycms.skylora.vn}
+        PAYLOAD_SECRET: ${PAYLOAD_SECRET}
+    container_name: travel-cms
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      CI: "true"
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@postgres:5432/${POSTGRES_DB:-travel_cms}
+      PAYLOAD_SECRET: ${PAYLOAD_SECRET}
+      PAYLOAD_PUBLIC_SERVER_URL: ${PAYLOAD_PUBLIC_SERVER_URL:-https://vietwaycms.skylora.vn}
+      PORT: 3005
+      # Cloudflare R2 Storage
+      R2_BUCKET: ${R2_BUCKET}
+      R2_ACCESS_KEY: ${R2_ACCESS_KEY}
+      R2_SECRET_KEY: ${R2_SECRET_KEY}
+      R2_ENDPOINT: ${R2_ENDPOINT}
+      R2_PUBLIC_URL: ${R2_PUBLIC_URL}
+    ports:
+      - "3005:3005"
+    volumes:
+      - cms_media:/app/apps/cms/media
+    networks:
+      - skylora-net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3005/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Next.js Frontend
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+      args:
+        NEXT_PUBLIC_CMS_URL: ${NEXT_PUBLIC_CMS_URL:-https://vietwaycms.skylora.vn}
+        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-https://vietway.skylora.vn}
+    container_name: travel-web
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      NEXT_PUBLIC_CMS_URL: ${NEXT_PUBLIC_CMS_URL:-https://vietwaycms.skylora.vn}
+      NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-https://vietway.skylora.vn}
+      NEXT_PUBLIC_R2_URL: ${R2_PUBLIC_URL}
+      CMS_INTERNAL_URL: http://cms:3005
+    ports:
+      - "3004:3004"
+    depends_on:
+      cms:
+        condition: service_healthy
+    networks:
+      - skylora-net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3004/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+  # Nginx Reverse Proxy (Optional - for production with SSL)
+ 
+
+volumes:
+  cms_media:
+    driver: local
+
+networks:
+  skylora-net:
+    external: true

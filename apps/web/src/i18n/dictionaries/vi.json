@@ -1,0 +1,272 @@
+{
+  "common": {
+    "siteName": "VietWay",
+    "home": "Trang chủ",
+    "destinations": "Điểm đến",
+    "attractions": "Địa điểm tham quan",
+    "itineraries": "Lịch trình",
+    "blog": "Blog",
+    "about": "Giới thiệu",
+    "contact": "Liên hệ",
+    "faq": "Câu hỏi thường gặp",
+    "search": "Tìm kiếm",
+    "viewAll": "Xem tất cả",
+    "readMore": "Đọc thêm",
+    "share": "Chia sẻ",
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "notFound": "Không tìm thấy trang",
+    "backHome": "Về trang chủ",
+    "days": "ngày",
+    "gallery": "Thư viện ảnh",
+    "quickFacts": "Thông tin nhanh",
+    "continent": "Châu lục",
+    "language": "Ngôn ngữ",
+    "currency": "Tiền tệ",
+    "timezone": "Múi giờ",
+    "bestTimeToVisit": "Thời điểm tốt nhất để đến",
+    "highlights": "Điểm nổi bật",
+    "cityInfo": "Thông tin thành phố",
+    "country": "Quốc gia",
+    "population": "Dân số",
+    "viewItineraries": "Xem lịch trình",
+    "duration": "Thời gian",
+    "backTo": "Quay lại",
+    "noResults": "Không tìm thấy kết quả",
+    "location": "Vị trí",
+    "address": "Địa chỉ",
+    "free": "Miễn phí",
+    "company": "Công ty",
+    "partnership": "Đối tác",
+    "resources": "Tài nguyên",
+    "expertise": "Chuyên môn của chúng tôi",
+    "sustainability": "Phát triển bền vững",
+    "caseStudies": "Nghiên cứu điển hình",
+    "partners": "Hợp tác với chúng tôi",
+    "partnerInquiry": "Yêu cầu hợp tác",
+    "cities": "Thành phố",
+    "featured": "Nổi bật",
+    "explore": "Khám phá",
+    "languageLabel": "Ngôn ngữ"
+  },
+  "home": {
+    "heroTitle": "Khám Phá Thế Giới",
+    "heroDescription": "Khám phá những điểm đến tuyệt đẹp, lên kế hoạch cho chuyến đi hoàn hảo và tạo nên những kỷ niệm đáng nhớ với hướng dẫn du lịch toàn diện của chúng tôi.",
+    "exploreDestinations": "Khám phá điểm đến",
+    "viewItineraries": "Xem lịch trình",
+    "featuredCountries": "Quốc gia nổi bật",
+    "featuredCities": "Thành phố nổi bật",
+    "featuredItineraries": "Lịch trình nổi bật"
+  },
+  "destinations": {
+    "title": "Điểm đến",
+    "description": "Khám phá những điểm đến được chúng tôi chọn lọc trên khắp thế giới",
+    "countries": "Quốc gia",
+    "cities": "Thành phố",
+    "noResults": "Không tìm thấy điểm đến",
+    "popularCities": "Thành phố phổ biến"
+  },
+  "attractions": {
+    "title": "Địa điểm tham quan",
+    "description": "Khám phá những địa điểm tham quan tuyệt vời và những điều thú vị để làm",
+    "noResults": "Không tìm thấy địa điểm tham quan",
+    "thingsToDo": "Hoạt động nên làm",
+    "visitorTips": "Mẹo cho khách tham quan",
+    "visitorInfo": "Thông tin khách tham quan",
+    "openingHours": "Giờ mở cửa",
+    "ticketPrice": "Giá vé",
+    "search": "Tìm kiếm địa điểm...",
+    "filters": "Bộ lọc",
+    "category": "Danh mục",
+    "city": "Thành phố",
+    "rating": "Đánh giá",
+    "allCategories": "Tất cả danh mục",
+    "allCities": "Tất cả thành phố",
+    "allRatings": "Tất cả đánh giá",
+    "loadMore": "Xem thêm",
+    "showing": "Hiển thị",
+    "of": "trong",
+    "clearFilters": "Xóa bộ lọc",
+    "howToExperience": "Cách trải nghiệm địa điểm này",
+    "practicalNotes": "Ghi chú thực tế",
+    "alsoInRegion": "Cũng trong khu vực này",
+    "visitDuration": "Thời gian gợi ý"
+  },
+  "itineraries": {
+    "title": "Lịch trình",
+    "description": "Tìm lịch trình du lịch hoàn hảo cho chuyến phiêu lưu tiếp theo của bạn",
+    "days": "ngày",
+    "noResults": "Không tìm thấy lịch trình",
+    "including": "Lịch trình bao gồm",
+    "dayByDay": "Lịch trình từng ngày",
+    "tripDetails": "Chi tiết chuyến đi",
+    "difficulty": "Độ khó",
+    "budget": "Ngân sách",
+    "travelStyle": "Phong cách du lịch",
+    "accommodation": "Chỗ ở"
+  },
+  "listing": {
+    "filters": "Bộ lọc",
+    "clearFilters": "Xóa tất cả",
+    "loadMore": "Tải thêm",
+    "region": "Khu vực",
+    "travelStyle": "Phong cách du lịch",
+    "season": "Mùa",
+    "type": "Loại",
+    "location": "Vị trí",
+    "duration": "Thời gian",
+    "pace": "Nhịp độ",
+    "theme": "Chủ đề"
+  },
+  "cities": {
+    "title": "Khám phá thành phố",
+    "description": "Khám phá những thành phố sôi động trên khắp thế giới",
+    "noResults": "Không tìm thấy thành phố",
+    "localTips": "Mẹo địa phương"
+  },
+  "countries": {
+    "title": "Khám phá quốc gia",
+    "description": "Khám phá các điểm đến du lịch theo quốc gia",
+    "noResults": "Không tìm thấy quốc gia"
+  },
+  "blog": {
+    "title": "Blog Du Lịch",
+    "description": "Đọc những câu chuyện và mẹo du lịch mới nhất của chúng tôi",
+    "noResults": "Không tìm thấy bài viết",
+    "subtitle": "Mẹo, hướng dẫn và những câu chuyện truyền cảm hứng từ khắp nơi trên thế giới",
+    "by": "Bởi",
+    "backToBlog": "Quay lại Blog",
+    "tags": "Thẻ",
+    "writtenBy": "Viết bởi",
+    "contributor": "Người đóng góp",
+    "published": "Đã xuất bản",
+    "readingTime": "Thời gian đọc",
+    "category": "Danh mục"
+  },
+  "about": {
+    "title": "Về chúng tôi",
+    "description": "Tìm hiểu thêm về VietWay và sứ mệnh của chúng tôi",
+    "heroSubtitle": "Chúng tôi tạo nên những trải nghiệm du lịch ý nghĩa, kết nối bạn với những điểm đến và nền văn hóa phi thường nhất thế giới.",
+    "intro": {
+      "title": "Hành trình của bạn bắt đầu từ đây",
+      "content": "Được thành lập với niềm đam mê du lịch chân thực, VietWay đã giúp du khách khám phá những viên ngọc ẩn giấu của thế giới trong hơn một thập kỷ. Chúng tôi tin rằng những hành trình tuyệt vời nhất là những hành trình để lại ấn tượng lâu dài—cho cả du khách và cộng đồng họ ghé thăm."
+    },
+    "story": {
+      "eyebrow": "Câu chuyện của chúng tôi",
+      "title": "Từ đam mê đến sứ mệnh",
+      "content": "Khởi đầu từ một nhóm nhỏ những người đam mê du lịch, VietWay đã phát triển thành đối tác du lịch đáng tin cậy của hàng ngàn nhà thám hiểm trên toàn thế giới. Các nhà sáng lập của chúng tôi, bản thân là những lữ khách dày dạn kinh nghiệm, nhận thấy một khoảng trống trên thị trường—du khách tìm kiếm nhiều hơn chỉ một kỳ nghỉ. Họ muốn sự chuyển đổi, kết nối và những câu chuyện đáng kể. Đó chính xác là những gì chúng tôi mang lại.",
+      "highlight": "Hơn 10 năm tạo nên những hành trình khó quên trên hơn 50 quốc gia."
+    },
+    "mission": {
+      "eyebrow": "Sứ mệnh",
+      "title": "Tạo nên những trải nghiệm du lịch khó quên",
+      "content": "Chúng tôi tin rằng du lịch có sức mạnh thay đổi cuộc sống. Sứ mệnh của chúng tôi là kết nối du khách với những trải nghiệm chân thực vượt xa lộ trình du lịch thông thường, tạo nên những kết nối ý nghĩa với văn hóa và cộng đồng địa phương."
+    },
+    "values": {
+      "eyebrow": "Triết lý của chúng tôi",
+      "title": "Điều làm nên sự khác biệt",
+      "curated": {
+        "icon": "🌍",
+        "title": "Trải nghiệm được chọn lọc",
+        "description": "Mỗi điểm đến được chọn lọc kỹ lưỡng để mang đến những cuộc gặp gỡ chân thực, ý nghĩa vượt xa du lịch thông thường."
+      },
+      "personal": {
+        "icon": "❤️",
+        "title": "Chạm đến cá nhân",
+        "description": "Hành trình được thiết kế riêng theo sở thích của bạn, tạo nên những chuyến đi độc đáo như chính bạn."
+      },
+      "trusted": {
+        "icon": "✓",
+        "title": "Chuyên gia đáng tin cậy",
+        "description": "Nhiều năm kinh nghiệm đảm bảo du lịch suôn sẻ, không lo lắng với hỗ trợ trong từng bước."
+      },
+      "sustainable": {
+        "icon": "🌱",
+        "title": "Du lịch bền vững",
+        "description": "Cam kết du lịch có trách nhiệm mang lại lợi ích cho cộng đồng địa phương và bảo tồn điểm đến cho thế hệ tương lai."
+      }
+    },
+    "stats": {
+      "travelers": { "number": "10,000+", "label": "Du khách hài lòng" },
+      "destinations": { "number": "50+", "label": "Điểm đến" },
+      "years": { "number": "10+", "label": "Năm kinh nghiệm" },
+      "rating": { "number": "4.9", "label": "Đánh giá trung bình" }
+    },
+    "whyChoose": {
+      "eyebrow": "Tại sao chọn chúng tôi",
+      "title": "Du lịch với sự tự tin",
+      "items": [
+        { "title": "Hướng dẫn viên địa phương", "description": "Kết nối với người địa phương đam mê chia sẻ kiến thức nội bộ và những viên ngọc ẩn giấu." },
+        { "title": "Hỗ trợ 24/7", "description": "Đội ngũ tận tâm của chúng tôi luôn sẵn sàng hỗ trợ bạn, dù bạn ở đâu." },
+        { "title": "Lập kế hoạch linh hoạt", "description": "Tùy chỉnh mọi khía cạnh của hành trình để phù hợp với sở thích và nhịp độ của bạn." },
+        { "title": "Giá trị tốt nhất", "description": "Trải nghiệm cao cấp với giá cạnh tranh, không có phí ẩn." }
+      ]
+    },
+    "cta": {
+      "title": "Sẵn sàng bắt đầu hành trình?",
+      "subtitle": "Hãy để chúng tôi giúp bạn lên kế hoạch cho cuộc phiêu lưu tiếp theo.",
+      "primaryButton": "Bắt đầu",
+      "secondaryButton": "Liên hệ"
+    }
+  },
+  "contact": {
+    "title": "Liên hệ",
+    "description": "Liên hệ với đội ngũ của chúng tôi",
+    "subtitle": "Bạn có câu hỏi hoặc góp ý? Chúng tôi rất muốn nghe từ bạn.",
+    "sendMessage": "Gửi tin nhắn cho chúng tôi",
+    "firstName": "Tên",
+    "lastName": "Họ",
+    "email": "Địa chỉ Email",
+    "message": "Tin nhắn",
+    "send": "Gửi tin nhắn",
+    "getInTouch": "Liên hệ",
+    "emailUs": "Email cho chúng tôi",
+    "office": "Văn phòng",
+    "hours": "Giờ làm việc",
+    "callUs": "Gọi cho chúng tôi",
+    "yourName": "Tên của bạn",
+    "yourEmail": "Email của bạn",
+    "subject": "Chủ đề",
+    "yourMessage": "Tin nhắn của bạn",
+    "name": "Tên"
+  },
+  "faq": {
+    "title": "Câu hỏi thường gặp",
+    "description": "Tìm câu trả lời cho các câu hỏi phổ biến",
+    "subtitle": "Tìm câu trả lời cho các câu hỏi phổ biến về lập kế hoạch du lịch.",
+    "stillHaveQuestions": "Vẫn còn câu hỏi?",
+    "contactUs": "Không tìm thấy điều bạn đang tìm kiếm? Đội ngũ của chúng tôi sẵn sàng hỗ trợ.",
+    "searchPlaceholder": "Tìm kiếm câu hỏi thường gặp..."
+  },
+  "footer": {
+    "description": "Người bạn đồng hành du lịch tối ưu của bạn để khám phá những điểm đến tuyệt vời trên toàn thế giới.",
+    "quickLinks": "Liên kết nhanh",
+    "explore": "Khám phá",
+    "support": "Hỗ trợ",
+    "newsletter": "Bản tin",
+    "newsletterDescription": "Đăng ký nhận bản tin để nhận mẹo và cập nhật du lịch.",
+    "emailPlaceholder": "Nhập email của bạn",
+    "subscribe": "Đăng ký",
+    "copyright": "© {year} VietWay. Đã đăng ký bản quyền.",
+    "privacyPolicy": "Chính sách bảo mật",
+    "termsConditions": "Điều khoản & điều kiện",
+    "luxuryTravelPartner": "Đối tác du lịch cao cấp",
+    "telephone": "Điện thoại"
+  },
+  "contactToolbar": {
+    "ariaLabel": "Tùy chọn liên hệ",
+    "speakWithUs": "Trao đổi với chúng tôi",
+    "writeToUs": "Viết cho chúng tôi",
+    "sendNote": "Gửi email",
+    "requestCall": "Yêu cầu gọi lại",
+    "startConversation": "Bắt đầu cuộc trò chuyện",
+    "openContactOptions": "Mở tùy chọn liên hệ",
+    "close": "Đóng",
+    "howCanWeHelp": "Chúng tôi có thể hỗ trợ gì?",
+    "readyMessage": "Chúng tôi luôn sẵn sàng khi bạn cần"
+  },
+  "seo": {
+    "defaultTitle": "Khám Phá Thế Giới",
+    "defaultDescription": "Khám phá những điểm đến tuyệt vời, lên kế hoạch cho chuyến đi hoàn hảo và khám phá thế giới với hướng dẫn du lịch toàn diện của chúng tôi."
+  }
+}
