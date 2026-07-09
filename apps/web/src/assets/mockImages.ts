@@ -12,7 +12,6 @@ import hanoiImg5538 from './images/HaNoi/IMG_5538.jpg';
 import hanoiImg5543 from './images/HaNoi/IMG_5543.jpg';
 import hanoiImg5609 from './images/HaNoi/IMG_5609.jpg';
 import hanoiImg5617 from './images/HaNoi/IMG_5617.jpg';
-import hanoiImg5617Alt from './images/HaNoi/IMG_5617(1).jpg';
 import hanoiImg5669 from './images/HaNoi/IMG_5669.jpg';
 import hanoiImg5211 from './images/HaNoi/IMG_5211.jpg';
 import hanoiImg5221 from './images/HaNoi/IMG_5221.jpg';
@@ -47,7 +46,6 @@ export const mockImageList = [
   hanoiImg5221,
   hanoiImg5538,
   hanoiImg5495,
-  hanoiImg5617Alt,
   hanoiImg5211,
   hanoiImg5454,
   hanoiImg5609,

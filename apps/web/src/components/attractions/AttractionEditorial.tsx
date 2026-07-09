@@ -1,27 +1,27 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from "next/link";
+import Image from "next/image";
 
 /**
  * ═══════════════════════════════════════════════════════════════════════════
  * ATTRACTION EDITORIAL COMPONENTS
  * ═══════════════════════════════════════════════════════════════════════════
- * 
+ *
  * Thiết kế: Quiet cultural travel editorial
- * 
+ *
  * Attraction KHÔNG PHẢI POI,
  * mà là một nơi có bối cảnh – ý nghĩa – cách tiếp cận.
- * 
+ *
  * Cảm giác:
  * - Tĩnh
  * - Có chiều sâu
  * - Tôn trọng nơi chốn
  * - Không "check-in", không gấp gáp
- * 
+ *
  * GIỐNG: museum catalogue, cultural editorial
  * KHÔNG GIỐNG: directory, listicle, Google Maps POI
- * 
+ *
  * TUYỆT ĐỐI TRÁNH:
  * - Grid đều nhau
  * - Card hover effects
@@ -44,7 +44,7 @@ interface EditorialPlaceCardProps {
   /** Location name */
   location?: string;
   /** Layout variant for varied grid */
-  variant?: 'default' | 'featured' | 'minimal';
+  variant?: "default" | "featured" | "minimal";
 }
 
 export function EditorialPlaceCard({
@@ -54,30 +54,30 @@ export function EditorialPlaceCard({
   title,
   context,
   location,
-  variant = 'default',
+  variant = "default",
 }: EditorialPlaceCardProps) {
-  const isFeatured = variant === 'featured';
-  const isMinimal = variant === 'minimal';
+  const isFeatured = variant === "featured";
+  const isMinimal = variant === "minimal";
 
   return (
-    <Link 
-      href={href} 
-      className="group block"
-    >
+    <Link href={href} className="group block">
       {/* Image - Trầm, tĩnh, ánh sáng tự nhiên */}
-      <div className={`
+      <div
+        className={`
         relative bg-surface-secondary overflow-hidden
-        ${isFeatured ? 'aspect-[4/5] md:aspect-[3/4]' : isMinimal ? 'aspect-[4/3]' : 'aspect-[5/6]'}
-      `}>
+        ${isFeatured ? "aspect-[4/5] md:aspect-[3/4]" : isMinimal ? "aspect-[4/3]" : "aspect-[5/6]"}
+      `}
+      >
         {image ? (
           <Image
             src={image}
             alt={imageAlt || title}
             fill
             className="object-cover transition-all duration-1000 ease-out grayscale-[15%] group-hover:grayscale-0"
-            sizes={isFeatured 
-              ? "(max-width: 768px) 100vw, 50vw"
-              : "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            sizes={
+              isFeatured
+                ? "(max-width: 768px) 100vw, 50vw"
+                : "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             }
           />
         ) : (
@@ -86,30 +86,36 @@ export function EditorialPlaceCard({
       </div>
 
       {/* Content - Tối giản, khoảng trắng */}
-      <div className={`
-        ${isFeatured ? 'mt-8 space-y-4' : 'mt-6 space-y-3'}
-      `}>
+      <div
+        className={`
+        ${isFeatured ? "mt-8 space-y-4" : "mt-6 space-y-3"}
+      `}
+      >
         {/* Location - nhỏ, nhẹ */}
         {location && (
           <span className="block text-label-sm uppercase tracking-[0.15em] text-content-light">
             {location}
           </span>
         )}
-        
+
         {/* Title - serif, thanh lịch */}
-        <h3 className={`
+        <h3
+          className={`
           font-serif text-content-primary leading-tight
-          ${isFeatured ? 'text-heading-lg md:text-display-sm' : 'text-heading-md'}
-        `}>
+          ${isFeatured ? "text-heading-lg md:text-display-sm" : "text-heading-md"}
+        `}
+        >
           {title}
         </h3>
-        
+
         {/* Context - Một câu bối cảnh, không phải mô tả */}
         {context && !isMinimal && (
-          <p className={`
+          <p
+            className={`
             text-content-muted leading-relaxed
-            ${isFeatured ? 'text-body-md' : 'text-body-sm'}
-          `}>
+            ${isFeatured ? "text-body-md" : "text-body-sm"}
+          `}
+          >
             {context}
           </p>
         )}
@@ -125,12 +131,12 @@ export function EditorialPlaceCard({
 interface CuratedGalleryProps {
   children: React.ReactNode;
   /** Variation of the layout pattern */
-  pattern?: 'A' | 'B' | 'C';
+  pattern?: "A" | "B" | "C";
 }
 
-export function CuratedGallery({ 
-  children, 
-  pattern = 'A' 
+export function CuratedGallery({
+  children,
+  pattern = "A",
 }: CuratedGalleryProps) {
   return (
     <div className="curated-gallery" data-pattern={pattern}>
@@ -162,13 +168,13 @@ export function PlaceSectionHeader({
           {note}
         </span>
       )}
-      
+
       {title && (
         <h1 className="font-serif text-display-md md:text-display-lg text-content-inverse mb-8 leading-[1.1]">
           {title}
         </h1>
       )}
-      
+
       {context && (
         <p className="text-body-lg text-content-inverse/70 leading-relaxed">
           {context}
@@ -188,10 +194,7 @@ interface NarrativeBlockProps {
   label?: string;
 }
 
-export function NarrativeBlock({
-  children,
-  label,
-}: NarrativeBlockProps) {
+export function NarrativeBlock({ children, label }: NarrativeBlockProps) {
   return (
     <section className="narrative-block mb-16 md:mb-24">
       {label && (
@@ -199,9 +202,7 @@ export function NarrativeBlock({
           {label}
         </span>
       )}
-      <div className="prose-editorial">
-        {children}
-      </div>
+      <div className="prose-editorial">{children}</div>
     </section>
   );
 }
@@ -220,10 +221,7 @@ interface PracticalNotesProps {
   title?: string;
 }
 
-export function PracticalNotes({
-  notes,
-  title,
-}: PracticalNotesProps) {
+export function PracticalNotes({ notes, title }: PracticalNotesProps) {
   if (notes.length === 0) return null;
 
   return (
@@ -279,23 +277,23 @@ export function ExperienceGuide({
             {title}
           </span>
         )}
-        
+
         {approach && (
           <p className="text-body-lg md:text-xl text-content-primary leading-relaxed mb-8 font-serif">
             {approach}
           </p>
         )}
-        
+
         {rhythm && (
           <p className="text-body-md text-content-secondary leading-relaxed mb-8">
             {rhythm}
           </p>
         )}
-        
+
         {moments && moments.length > 0 && (
           <div className="space-y-3 mt-12">
             {moments.map((moment, index) => (
-              <p 
+              <p
                 key={index}
                 className="text-body-sm text-content-muted pl-6 border-l-2 border-border-medium"
               >
@@ -320,11 +318,7 @@ interface ContextImageProps {
   caption?: string;
 }
 
-export function ContextImage({
-  src,
-  alt,
-  caption,
-}: ContextImageProps) {
+export function ContextImage({ src, alt, caption }: ContextImageProps) {
   return (
     <figure className="context-image -mx-4 md:-mx-8 lg:-mx-16 my-16 md:my-24">
       <div className="relative aspect-[21/9] md:aspect-[3/1] bg-surface-secondary">
@@ -365,7 +359,7 @@ interface RelatedPlacesProps {
 
 export function RelatedPlaces({
   places,
-  title = 'Also in this region',
+  title = "Also in this region",
   context,
 }: RelatedPlacesProps) {
   if (places.length === 0) return null;
@@ -377,19 +371,13 @@ export function RelatedPlaces({
           {title}
         </span>
         {context && (
-          <p className="text-body-md text-content-muted max-w-lg">
-            {context}
-          </p>
+          <p className="text-body-md text-content-muted max-w-lg">{context}</p>
         )}
       </div>
-      
+
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
         {places.map((place, index) => (
-          <Link 
-            key={index}
-            href={place.href}
-            className="group block"
-          >
+          <Link key={index} href={place.href} className="group block">
             {place.image && (
               <div className="relative aspect-[4/3] bg-surface-secondary mb-4 overflow-hidden">
                 <Image
@@ -399,9 +387,21 @@ export function RelatedPlaces({
                   className="object-cover grayscale-[15%] group-hover:grayscale-0 transition-all duration-700"
                   sizes="(max-width: 768px) 100vw, 33vw"
                 />
+                <div className="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black/75 via-black/35 to-transparent">
+                  <span className="font-serif text-lg text-white leading-tight">
+                    {place.title}
+                  </span>
+                  {place.location && (
+                    <span className="block mt-1 text-[10px] uppercase tracking-[0.18em] text-white/70">
+                      {place.location}
+                    </span>
+                  )}
+                </div>
               </div>
             )}
-            <h4 className="font-serif text-heading-sm text-content-primary">
+            <h4
+              className={`font-serif text-heading-sm text-content-primary ${place.image ? "sr-only" : ""}`}
+            >
               {place.title}
             </h4>
             {place.location && (

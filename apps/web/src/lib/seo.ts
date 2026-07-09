@@ -111,13 +111,15 @@ export function generateCountryMetadata(country: Country): Metadata {
 export function generateCityMetadata(city: City, country: Country): Metadata {
   const imageUrl = getMediaUrl(city.featuredImage);
   const canonical = createCanonicalUrl(`/destinations/${country.slug}/${city.slug}`);
+  const countryName = country.name?.trim() || country.slug || 'Destination';
+  const cityName = city.name?.trim() || city.slug || 'City';
 
   return generateMetadata({
-    title: city.metaTitle || `${city.name}, ${country.name} - Travel Guide & Attractions`,
+    title: city.metaTitle || `${cityName}, ${countryName} - Travel Guide & Attractions`,
     description:
       city.metaDescription ||
       city.excerpt ||
-      `Plan your visit to ${city.name}, ${country.name}. Find top attractions, local tips, and travel information.`,
+      `Plan your visit to ${cityName}, ${countryName}. Find top attractions, local tips, and travel information.`,
     canonical,
     openGraph: {
       type: 'website',
@@ -127,7 +129,7 @@ export function generateCityMetadata(city: City, country: Country): Metadata {
               url: imageUrl,
               width: 1200,
               height: 630,
-              alt: `${city.name}, ${country.name}`,
+              alt: `${cityName}, ${countryName}`,
             },
           ]
         : undefined,
@@ -285,8 +287,8 @@ export function generateTouristTripSchema(
   const imageUrl = getMediaUrl(itinerary.featuredImage);
   const destinations: string[] = [];
 
-  if (country) destinations.push(country.name);
-  if (city) destinations.push(city.name);
+  if (country) destinations.push(country.name?.trim() || country.slug || 'Destination');
+  if (city) destinations.push(city.name?.trim() || city.slug || 'City');
 
   return {
     '@context': 'https://schema.org',

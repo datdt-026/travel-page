@@ -1,13 +1,13 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import Link from 'next/link';
-import { Country, City, Itinerary, Media } from '@/types';
-import RichText from '@/components/RichText';
-import { getMediaImageUrl } from '@/lib/api';
+import Image from "next/image";
+import Link from "next/link";
+import { Country, City, Itinerary, Media } from "@/types";
+import RichText from "@/components/RichText";
+import { getMediaImageUrl } from "@/lib/api";
 
 function getImageUrl(image: Media | string | undefined): string | undefined {
-  return getMediaImageUrl(image, ['hero', 'card']);
+  return getMediaImageUrl(image, ["hero", "card"]);
 }
 
 interface CountryEditorialLayoutProps {
@@ -24,6 +24,7 @@ interface CountryEditorialLayoutProps {
  */
 function CountryHero({ country }: { country: Country }) {
   const imageUrl = getImageUrl(country.featuredImage);
+  const countryName = country.name?.trim() || country.slug || "Destination";
 
   return (
     <section className="relative h-[70vh] md:h-[85vh] w-full overflow-hidden">
@@ -32,7 +33,7 @@ function CountryHero({ country }: { country: Country }) {
         {imageUrl ? (
           <Image
             src={imageUrl}
-            alt={country.name}
+            alt={countryName}
             fill
             priority
             className="object-cover"
@@ -50,7 +51,7 @@ function CountryHero({ country }: { country: Country }) {
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="text-center px-6">
           <h1 className="font-serif text-white text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light tracking-[0.15em] uppercase">
-            {country.name}
+            {countryName}
           </h1>
         </div>
       </div>
@@ -92,10 +93,16 @@ interface CitiesCheckerboardProps {
   title?: string;
 }
 
-function CitiesCheckerboard({ cities, country, locale, title = 'Destinations' }: CitiesCheckerboardProps) {
+function CitiesCheckerboard({
+  cities,
+  country,
+  locale,
+  title = "Destinations",
+}: CitiesCheckerboardProps) {
   if (cities.length === 0) return null;
 
   const localePath = (path: string) => `/${locale}${path}`;
+  const countryName = country.name?.trim() || country.slug || "Destination";
 
   return (
     <section className="py-20 md:py-32 bg-surface-primary">
@@ -114,25 +121,28 @@ function CitiesCheckerboard({ cities, country, locale, title = 'Destinations' }:
         <div className="space-y-16 md:space-y-24">
           {cities.map((city, index) => {
             const imageUrl = getImageUrl(city.featuredImage);
+            const cityName = city.name?.trim() || city.slug || "cityName";
             const isEven = index % 2 === 0;
-            const href = localePath(`/destinations/${country.slug}/${city.slug}`);
+            const href = localePath(
+              `/destinations/${country.slug}/${city.slug}`,
+            );
 
             return (
               <div
                 key={city.id}
                 className={`grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center ${
-                  !isEven ? 'md:[direction:rtl]' : ''
+                  !isEven ? "md:[direction:rtl]" : ""
                 }`}
               >
                 {/* Image */}
-                <Link 
-                  href={href} 
-                  className={`relative aspect-[4/3] overflow-hidden group ${!isEven ? 'md:[direction:ltr]' : ''}`}
+                <Link
+                  href={href}
+                  className={`relative aspect-[4/3] overflow-hidden group ${!isEven ? "md:[direction:ltr]" : ""}`}
                 >
                   {imageUrl ? (
                     <Image
                       src={imageUrl}
-                      alt={city.name}
+                      alt={cityName}
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-105"
                       sizes="(max-width: 768px) 100vw, 50vw"
@@ -143,27 +153,31 @@ function CitiesCheckerboard({ cities, country, locale, title = 'Destinations' }:
                 </Link>
 
                 {/* Content */}
-                <div className={`space-y-6 ${!isEven ? 'md:[direction:ltr]' : ''}`}>
+                <div
+                  className={`space-y-6 ${!isEven ? "md:[direction:ltr]" : ""}`}
+                >
                   <span className="text-xs tracking-[0.2em] uppercase text-content-muted">
-                    {country.name}
+                    {countryName}
                   </span>
-                  
+
                   <h3 className="font-serif text-3xl md:text-4xl font-light text-content-primary">
-                    {city.name}
+                    {cityName}
                   </h3>
-                  
+
                   {city.excerpt && (
                     <p className="text-content-secondary leading-relaxed max-w-md">
                       {city.excerpt}
                     </p>
                   )}
-                  
+
                   <Link
                     href={href}
                     className="inline-flex items-center gap-2 text-sm tracking-[0.1em] uppercase text-content-primary hover:text-accent transition-colors group"
                   >
-                    <span>Explore</span>
-                    <span className="transition-transform group-hover:translate-x-1">→</span>
+                    <span>Explore {cityName}</span>
+                    <span className="transition-transform group-hover:translate-x-1">
+                      →
+                    </span>
                   </Link>
                 </div>
               </div>
@@ -185,7 +199,12 @@ interface ItinerariesSectionProps {
   title?: string;
 }
 
-function ItinerariesSection({ itineraries, locale, countrySlug, title = 'Curated Journeys' }: ItinerariesSectionProps) {
+function ItinerariesSection({
+  itineraries,
+  locale,
+  countrySlug,
+  title = "Curated Journeys",
+}: ItinerariesSectionProps) {
   if (itineraries.length === 0) return null;
 
   const localePath = (path: string) => `/${locale}${path}`;
@@ -203,7 +222,7 @@ function ItinerariesSection({ itineraries, locale, countrySlug, title = 'Curated
               {title}
             </h2>
           </div>
-          
+
           <Link
             href={localePath(`/itineraries?country=${countrySlug}`)}
             className="text-sm tracking-[0.1em] uppercase text-content-secondary hover:text-content-primary transition-colors"
@@ -216,7 +235,7 @@ function ItinerariesSection({ itineraries, locale, countrySlug, title = 'Curated
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
           {itineraries.map((itinerary) => {
             const imageUrl = getImageUrl(itinerary.featuredImage);
-            
+
             return (
               <Link
                 key={itinerary.id}
@@ -245,11 +264,11 @@ function ItinerariesSection({ itineraries, locale, countrySlug, title = 'Curated
                     <span className="inline-block w-fit text-xs tracking-[0.15em] uppercase bg-accent/10 text-accent px-3 py-1 mb-4">
                       {itinerary.duration} Days
                     </span>
-                    
+
                     <h3 className="font-serif text-xl md:text-2xl font-light text-content-primary group-hover:text-accent transition-colors mb-2">
                       {itinerary.title}
                     </h3>
-                    
+
                     {itinerary.excerpt && (
                       <p className="text-sm text-content-muted line-clamp-2">
                         {itinerary.excerpt}
@@ -272,11 +291,11 @@ function ItinerariesSection({ itineraries, locale, countrySlug, title = 'Curated
  */
 function TravelersNotebook({ country }: { country: Country }) {
   const facts = [
-    { label: 'Language', value: country.language },
-    { label: 'Currency', value: country.currency },
-    { label: 'Best Time', value: country.bestTimeToVisit },
-    { label: 'Timezone', value: country.timezone },
-  ].filter(f => f.value);
+    { label: "Language", value: country.language },
+    { label: "Currency", value: country.currency },
+    { label: "Best Time", value: country.bestTimeToVisit },
+    { label: "Timezone", value: country.timezone },
+  ].filter((f) => f.value);
 
   if (facts.length === 0) return null;
 
@@ -305,7 +324,7 @@ function TravelersNotebook({ country }: { country: Country }) {
 
 /**
  * Country Editorial Layout
- * 
+ *
  * Full redesign according to design spec:
  * - Full-width hero (no sidebars)
  * - Editorial intro with drop cap
@@ -333,7 +352,7 @@ export function CountryEditorialLayout({
         cities={cities}
         country={country}
         locale={locale}
-        title={dict.destinations?.cities || 'Destinations'}
+        title={dict.destinations?.cities || "Destinations"}
       />
 
       {/* Itineraries - Recipe Cards */}
@@ -341,7 +360,7 @@ export function CountryEditorialLayout({
         itineraries={itineraries}
         locale={locale}
         countrySlug={country.slug}
-        title={dict.itineraries?.title || 'Curated Journeys'}
+        title={dict.itineraries?.title || "Curated Journeys"}
       />
 
       {/* Traveler's Notebook - Subtle footer */}

@@ -68,6 +68,8 @@ interface CityPortraitLayoutProps {
  */
 function CityHero({ city, country }: { city: City; country: Country }) {
   const imageUrl = getImageUrl(city.featuredImage);
+  const cityName = city.name?.trim() || city.slug || 'City';
+  const countryName = country.name?.trim() || country.slug || 'Destination';
 
   return (
     <section className="relative h-[70vh] md:h-[85vh] w-full overflow-hidden">
@@ -76,7 +78,7 @@ function CityHero({ city, country }: { city: City; country: Country }) {
         {imageUrl ? (
           <Image
             src={imageUrl}
-            alt={city.name}
+            alt={cityName}
             fill
             priority
             className="object-cover"
@@ -99,11 +101,11 @@ function CityHero({ city, country }: { city: City; country: Country }) {
             className="inline-flex items-center gap-2 text-white/60 hover:text-white/90 text-sm tracking-wide mb-4 transition-colors"
           >
             <ChevronLeftIcon className="w-4 h-4" />
-            <span>{country.name}</span>
+            <span>{countryName}</span>
           </Link>
           
           <h1 className="font-serif text-white text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light">
-            {city.name}
+            {cityName}
           </h1>
         </div>
       </div>
@@ -426,6 +428,8 @@ function HighlightsGrid({ city }: { city: City }) {
  * Back to Country Bar
  */
 function BackToCountryBar({ country, locale }: { country: Country; locale: string }) {
+  const countryName = country.name?.trim() || country.slug || 'Destination';
+
   return (
     <div className="bg-surface-dark text-white py-4">
       <div className="container-luxury">
@@ -434,7 +438,7 @@ function BackToCountryBar({ country, locale }: { country: Country; locale: strin
           className="inline-flex items-center gap-2 text-sm tracking-wide text-white/70 hover:text-white transition-colors"
         >
           <ChevronLeftIcon className="w-4 h-4" />
-          <span>Back to {country.name}</span>
+          <span>Back to {countryName}</span>
         </Link>
       </div>
     </div>
@@ -459,6 +463,8 @@ export function CityPortraitLayout({
   locale,
   dict,
 }: CityPortraitLayoutProps) {
+  const cityName = city.name?.trim() || city.slug || 'City';
+
   return (
     <div className="min-h-screen">
       {/* Atmospheric Hero */}
@@ -483,7 +489,7 @@ export function CityPortraitLayout({
       {/* Curated Journeys */}
       <CuratedJourneys
         itineraries={itineraries}
-        cityName={city.name}
+        cityName={cityName}
         locale={locale}
         citySlug={city.slug}
       />

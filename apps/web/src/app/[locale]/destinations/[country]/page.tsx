@@ -87,6 +87,7 @@ export default async function CountryPage({ params }: CountryPageProps) {
 
   const imageUrl = getMediaUrl(country.featuredImage);
   const hreflangLinks = generateHreflangLinks(`/${locale}/destinations/${country.slug}`);
+  const countryName = country.name?.trim() || country.slug || 'Destination';
 
   return (
     <>
@@ -94,7 +95,7 @@ export default async function CountryPage({ params }: CountryPageProps) {
       {config?.schema?.enableJsonLd !== false && (
         <JsonLd
           data={generateTouristDestinationSchema(
-            country.name,
+            countryName,
             country.excerpt,
             imageUrl
           )}
