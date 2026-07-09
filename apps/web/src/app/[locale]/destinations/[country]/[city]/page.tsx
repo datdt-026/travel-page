@@ -40,14 +40,16 @@ export async function generateMetadata({
 
   const dict = await getDictionary(locale);
   const alternates = generateAlternateLanguages(`/${locale}/destinations/${country.slug}/${city.slug}`);
+  const countryName = country.name?.trim() || country.slug || 'Destination';
+  const cityName = city.name?.trim() || city.slug || 'City';
 
   return {
-    title: city.metaTitle || `${city.name}, ${country.name} - ${dict.destinations.title}`,
+    title: city.metaTitle || `${cityName}, ${countryName} - ${dict.destinations.title}`,
     description: city.metaDescription || city.excerpt,
     keywords: city.metaKeywords,
     alternates,
     openGraph: {
-      title: city.metaTitle || `${city.name} Travel Guide`,
+      title: city.metaTitle || `${cityName} Travel Guide`,
       description: city.metaDescription || city.excerpt,
       images: city.featuredImage && typeof city.featuredImage === 'object'
         ? [getImageUrl(city.featuredImage.url) || '']
@@ -98,6 +100,8 @@ export default async function CityPage({ params }: CityPageProps) {
 
   const imageUrl = getMediaUrl(city.featuredImage);
   const hreflangLinks = generateHreflangLinks(`/${locale}/destinations/${country.slug}/${city.slug}`);
+  const countryName = country.name?.trim() || country.slug || 'Destination';
+  const cityName = city.name?.trim() || city.slug || 'City';
 
   return (
     <>
@@ -105,7 +109,7 @@ export default async function CityPage({ params }: CityPageProps) {
       {config?.schema?.enableJsonLd !== false && (
         <JsonLd
           data={generateTouristDestinationSchema(
-            `${city.name}, ${country.name}`,
+            `${cityName}, ${countryName}`,
             city.excerpt,
             imageUrl,
             city.coordinates

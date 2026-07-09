@@ -1,40 +1,48 @@
-import { Metadata } from 'next';
-import { notFound } from 'next/navigation';
-import Link from 'next/link';
-import Image from 'next/image';
-import { getAttractionBySlug, getAttractionsByCity, getImageUrl, getAttractionDetailConfig } from '@/lib/api';
-import { Attraction, AttractionDetailConfig, City, Country } from '@/types';
-import { getDictionary } from '@/i18n/server';
-import { isValidLocale, defaultLocale } from '@/i18n';
-import { generateAlternateLanguages, generateHreflangLinks } from '@/lib/seo-i18n';
-import { JsonLd, generateTouristAttractionSchema } from '@/lib/seo';
-import RichText from '@/components/RichText';
+import { Metadata } from "next";
+import { notFound } from "next/navigation";
+import Link from "next/link";
+import Image from "next/image";
+import {
+  getAttractionBySlug,
+  getAttractionsByCity,
+  getImageUrl,
+  getAttractionDetailConfig,
+} from "@/lib/api";
+import { Attraction, AttractionDetailConfig, City, Country } from "@/types";
+import { getDictionary } from "@/i18n/server";
+import { isValidLocale, defaultLocale } from "@/i18n";
+import {
+  generateAlternateLanguages,
+  generateHreflangLinks,
+} from "@/lib/seo-i18n";
+import { JsonLd, generateTouristAttractionSchema } from "@/lib/seo";
+import RichText from "@/components/RichText";
 import {
   NarrativeBlock,
   PracticalNotes,
   ExperienceGuide,
   RelatedPlaces,
-} from '@/components/attractions';
+} from "@/components/attractions";
 
 /**
  * ═══════════════════════════════════════════════════════════════════════════
  * /ATTRACTIONS/[SLUG] — THE PLACE PROFILE
  * ═══════════════════════════════════════════════════════════════════════════
- * 
+ *
  * Design Philosophy: Quiet cultural travel editorial
- * 
+ *
  * Đây là trang để HIỂU một nơi, không phải trang "hướng dẫn đi nhanh".
- * 
+ *
  * Cảm giác khi vào:
  * "Mình đang được giới thiệu về một nơi,
  *  với sự trân trọng và bối cảnh."
- * 
+ *
  * Visual Language:
  * 1. Hero = bối cảnh, không phải cảnh đẹp
  * 2. Narrative > thông tin (chảy như field note)
  * 3. "How to experience" > "What it is"
  * 4. Practical notes = phụ, không dẫn
- * 
+ *
  * TUYỆT ĐỐI TRÁNH:
  * - Gallery ảnh
  * - Timeline lịch sử khô
@@ -46,15 +54,22 @@ interface PageProps {
   params: { locale: string; slug: string };
 }
 
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
   const locale = isValidLocale(params.locale) ? params.locale : defaultLocale;
-  const attraction = (await getAttractionBySlug(params.slug, locale)) as Attraction | null;
+  const attraction = (await getAttractionBySlug(
+    params.slug,
+    locale,
+  )) as Attraction | null;
 
   if (!attraction) {
-    return { title: 'Place Not Found' };
+    return { title: "Place Not Found" };
   }
 
-  const alternates = generateAlternateLanguages(`/${locale}/attractions/${params.slug}`);
+  const alternates = generateAlternateLanguages(
+    `/${locale}/attractions/${params.slug}`,
+  );
 
   return {
     title: attraction.metaTitle || attraction.name,
@@ -65,8 +80,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: attraction.metaTitle || attraction.name,
       description: attraction.metaDescription || attraction.excerpt,
       images:
-        attraction.featuredImage && typeof attraction.featuredImage === 'object'
-          ? [getImageUrl(attraction.featuredImage.url) || '']
+        attraction.featuredImage && typeof attraction.featuredImage === "object"
+          ? [getImageUrl(attraction.featuredImage.url) || ""]
           : undefined,
     },
   };
@@ -76,7 +91,7 @@ export const revalidate = 60;
 
 export default async function AttractionPage({ params }: PageProps) {
   const locale = isValidLocale(params.locale) ? params.locale : defaultLocale;
-  
+
   // Fetch attraction and config in parallel
   const [attraction, config] = await Promise.all([
     getAttractionBySlug(params.slug, locale) as Promise<Attraction | null>,
@@ -88,7 +103,9 @@ export default async function AttractionPage({ params }: PageProps) {
   }
 
   const dict = await getDictionary(locale);
-  const hreflangLinks = generateHreflangLinks(`/${locale}/attractions/${params.slug}`);
+  const hreflangLinks = generateHreflangLinks(
+    `/${locale}/attractions/${params.slug}`,
+  );
   const localePath = (path: string) => `/${locale}${path}`;
 
   const city = attraction.city as City;
@@ -97,13 +114,13 @@ export default async function AttractionPage({ params }: PageProps) {
   // Fetch related attractions from same city
   let relatedAttractions: Attraction[] = [];
   if (city) {
-    const response = await getAttractionsByCity(city.id, { 
-      limit: 4, 
-      status: 'published',
-      locale 
+    const response = await getAttractionsByCity(city.id, {
+      limit: 4,
+      status: "published",
+      locale,
     });
     relatedAttractions = (response.docs as Attraction[])
-      .filter(a => a.id !== attraction.id)
+      .filter((a) => a.id !== attraction.id)
       .slice(0, 3);
   }
 
@@ -111,9 +128,10 @@ export default async function AttractionPage({ params }: PageProps) {
   const practicalNotes = buildPracticalNotes(attraction, dict);
 
   // Get hero image
-  const heroImage = attraction.featuredImage && typeof attraction.featuredImage === 'object'
-    ? getImageUrl(attraction.featuredImage.url)
-    : null;
+  const heroImage =
+    attraction.featuredImage && typeof attraction.featuredImage === "object"
+      ? getImageUrl(attraction.featuredImage.url)
+      : null;
 
   return (
     <article className="attraction-profile bg-surface-primary">
@@ -154,11 +172,11 @@ export default async function AttractionPage({ params }: PageProps) {
           {/* Subtle breadcrumb */}
           <nav className="mb-8">
             <div className="flex items-center gap-3 text-label-sm uppercase tracking-[0.15em]">
-              <Link 
-                href={localePath('/attractions')} 
+              <Link
+                href={localePath("/attractions")}
                 className="text-content-light hover:text-content-secondary transition-colors"
               >
-                {dict.attractions?.title || 'Places'}
+                {dict.attractions?.title || "Places"}
               </Link>
               {city && (
                 <>
@@ -177,7 +195,8 @@ export default async function AttractionPage({ params }: PageProps) {
           {/* Location context */}
           {city && (
             <span className="block text-label-sm uppercase tracking-[0.2em] text-content-light mb-6">
-              {city.name}{country ? `, ${country.name}` : ''}
+              {city.name}
+              {country ? `, ${country.name}` : ""} lô
             </span>
           )}
 
@@ -202,9 +221,9 @@ export default async function AttractionPage({ params }: PageProps) {
       <section className="container-editorial py-8 md:py-16">
         <div className="max-w-3xl">
           <NarrativeBlock>
-            <RichText 
-              content={attraction.description} 
-              className="prose-editorial text-body-md md:text-body-lg text-content-secondary leading-[1.8]" 
+            <RichText
+              content={attraction.description}
+              className="prose-editorial text-body-md md:text-body-lg text-content-secondary leading-[1.8]"
             />
           </NarrativeBlock>
         </div>
@@ -218,9 +237,12 @@ export default async function AttractionPage({ params }: PageProps) {
         <section className="bg-surface-secondary">
           <div className="container-editorial py-16 md:py-24">
             <ExperienceGuide
-              title={dict.attractions?.howToExperience || 'How to experience this place'}
+              title={
+                dict.attractions?.howToExperience ||
+                "How to experience this place"
+              }
               approach={attraction.tips[0]?.tip}
-              moments={attraction.tips.slice(1).map(t => t.tip)}
+              moments={attraction.tips.slice(1).map((t) => t.tip)}
             />
           </div>
         </section>
@@ -234,7 +256,7 @@ export default async function AttractionPage({ params }: PageProps) {
         <div className="max-w-3xl">
           <PracticalNotes
             notes={practicalNotes}
-            title={dict.attractions?.practicalNotes || 'Practical notes'}
+            title={dict.attractions?.practicalNotes || "Practical notes"}
           />
         </div>
       </section>
@@ -245,16 +267,21 @@ export default async function AttractionPage({ params }: PageProps) {
       {relatedAttractions.length > 0 && (
         <section className="container-editorial pb-24 md:pb-40">
           <RelatedPlaces
-            places={relatedAttractions.map(a => ({
+            places={relatedAttractions.map((a) => ({
               href: localePath(`/attractions/${a.slug}`),
               title: a.name,
               location: city?.name,
-              image: a.featuredImage && typeof a.featuredImage === 'object'
-                ? getImageUrl(a.featuredImage.url)
-                : undefined,
+              image:
+                a.featuredImage && typeof a.featuredImage === "object"
+                  ? getImageUrl(a.featuredImage.url)
+                  : undefined,
             }))}
-            title={dict.attractions?.alsoInRegion || 'Also in this region'}
-            context={city ? `Other places worth understanding in ${city.name}.` : undefined}
+            title={dict.attractions?.alsoInRegion || "Also in this region"}
+            context={
+              city
+                ? `Other places worth understanding in ${city.name}.`
+                : undefined
+            }
           />
         </section>
       )}
@@ -264,38 +291,46 @@ export default async function AttractionPage({ params }: PageProps) {
 
 // Helper: Build practical notes array
 function buildPracticalNotes(
-  attraction: Attraction, 
-  dict: { attractions?: { openingHours?: string; ticketPrice?: string; visitDuration?: string }; common?: { address?: string; free?: string } }
+  attraction: Attraction,
+  dict: {
+    attractions?: {
+      openingHours?: string;
+      ticketPrice?: string;
+      visitDuration?: string;
+    };
+    common?: { address?: string; free?: string };
+  },
 ): { label: string; value: string }[] {
   const notes: { label: string; value: string }[] = [];
 
   if (attraction.openingHours) {
     notes.push({
-      label: dict.attractions?.openingHours || 'Hours',
+      label: dict.attractions?.openingHours || "Hours",
       value: attraction.openingHours,
     });
   }
 
   if (attraction.ticketPrice) {
-    const priceValue = attraction.ticketPrice.adult === 0
-      ? dict.common?.free || 'Free admission'
-      : `${attraction.ticketPrice.currency || 'USD'} ${attraction.ticketPrice.adult}`;
+    const priceValue =
+      attraction.ticketPrice.adult === 0
+        ? dict.common?.free || "Free admission"
+        : `${attraction.ticketPrice.currency || "USD"} ${attraction.ticketPrice.adult}`;
     notes.push({
-      label: dict.attractions?.ticketPrice || 'Admission',
+      label: dict.attractions?.ticketPrice || "Admission",
       value: priceValue,
     });
   }
 
   if (attraction.visitDuration) {
     notes.push({
-      label: dict.attractions?.visitDuration || 'Suggested time',
+      label: dict.attractions?.visitDuration || "Suggested time",
       value: attraction.visitDuration,
     });
   }
 
   if (attraction.address) {
     notes.push({
-      label: dict.common?.address || 'Address',
+      label: dict.common?.address || "Address",
       value: attraction.address,
     });
   }

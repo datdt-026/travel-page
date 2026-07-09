@@ -43,14 +43,17 @@ export async function generateMetadata({
   const alternates = generateAlternateLanguages(
     `/${locale}/destinations/${country.slug}/${city.slug}/${itinerary.slug}`
   );
+  const countryName = country.name?.trim() || country.slug || 'Destination';
+  const cityName = city.name?.trim() || city.slug || 'City';
+  const itineraryTitle = itinerary.title?.trim() || itinerary.slug || 'Itinerary';
 
   return {
-    title: itinerary.metaTitle || `${itinerary.title} - ${city.name}, ${country.name}`,
+    title: itinerary.metaTitle || `${itineraryTitle} - ${cityName}, ${countryName}`,
     description: itinerary.metaDescription || itinerary.excerpt,
     keywords: itinerary.metaKeywords,
     alternates,
     openGraph: {
-      title: itinerary.metaTitle || itinerary.title,
+      title: itinerary.metaTitle || itineraryTitle,
       description: itinerary.metaDescription || itinerary.excerpt,
       images: itinerary.featuredImage && typeof itinerary.featuredImage === 'object'
         ? [getImageUrl(itinerary.featuredImage.url) || '']
@@ -210,13 +213,16 @@ export default async function ItineraryDetailPage({ params }: ItineraryPageProps
     `/${locale}/destinations/${country.slug}/${city.slug}/${itinerary.slug}`
   );
   const localePath = (path: string) => `/${locale}${path}`;
+  const countryName = country.name?.trim() || country.slug || 'Destination';
+  const cityName = city.name?.trim() || city.slug || 'City';
+  const itineraryTitle = itinerary.title?.trim() || itinerary.slug || 'Itinerary';
 
   const breadcrumbs = [
     { name: dict.destinations.title, url: localePath('/destinations') },
-    { name: country.name, url: localePath(`/destinations/${country.slug}`) },
-    { name: city.name, url: localePath(`/destinations/${country.slug}/${city.slug}`) },
+    { name: countryName, url: localePath(`/destinations/${country.slug}`) },
+    { name: cityName, url: localePath(`/destinations/${country.slug}/${city.slug}`) },
     {
-      name: itinerary.title,
+      name: itineraryTitle,
       url: localePath(`/destinations/${country.slug}/${city.slug}/${itinerary.slug}`),
     },
   ];
@@ -233,8 +239,8 @@ export default async function ItineraryDetailPage({ params }: ItineraryPageProps
       <JsonLd data={generateTouristTripSchema(itinerary, country, city)} />
 
       <HeroSection
-        title={itinerary.title}
-        subtitle={`${itinerary.duration} ${dict.common.days || 'days'} - ${city.name}, ${country.name}`}
+        title={itineraryTitle}
+        subtitle={`${itinerary.duration} ${dict.common.days || 'days'} - ${cityName}, ${countryName}`}
         image={itinerary.featuredImage}
         size="md"
       >
