@@ -210,21 +210,20 @@ export default function DestinationsHighlight({
                       </span>
                     )}
 
-                    {/* Destination name is revealed with the CTA on hover. */}
-                    <h3 className="sr-only">{destinationName}</h3>
+                    {/* Destination name */}
+                    <h3
+                      className="block font-serif text-xl md:text-2xl lg:text-3xl text-white tracking-wide leading-tight mb-3"
+                      style={
+                        styling?.cardTitleColor
+                          ? { color: styling.cardTitleColor }
+                          : undefined
+                      }
+                    >
+                      {destinationName}
+                    </h3>
 
-                    {/* Hover reveal title + arrow */}
-                    <div className="mt-3 md:mt-4 opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-500">
-                      <span
-                        className="block font-serif text-xl md:text-2xl lg:text-3xl text-white tracking-wide leading-tight mb-3"
-                        style={
-                          styling?.cardTitleColor
-                            ? { color: styling.cardTitleColor }
-                            : undefined
-                        }
-                      >
-                        {destinationName}
-                      </span>
+                    {/* Hover reveal arrow */}
+                    <div className="opacity-80 group-hover:opacity-100 transform group-hover:translate-y-0 transition-all duration-500">
                       <div className="flex items-center gap-2">
                         <span className="text-xs uppercase tracking-[0.15em] text-white/80">
                           Discover
