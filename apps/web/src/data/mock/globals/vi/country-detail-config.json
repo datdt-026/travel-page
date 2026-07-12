@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "height": "large",
+    "overlayStyle": "medium",
+    "contentPosition": "bottom-left",
+    "showBreadcrumb": true,
+    "showContinent": true,
+    "showFlag": false,
+    "animationStyle": "fade-up"
+  },
+  "contentLayout": {
+    "layout": "sidebar-right",
+    "sidebarWidth": "normal",
+    "stickybar": true
+  },
+  "sections": {
+    "showDescription": true,
+    "showGallery": true,
+    "galleryStyle": "grid",
+    "galleryColumns": "3",
+    "showCities": true,
+    "citiesDisplayStyle": "grid",
+    "citiesColumns": "2",
+    "citiesLimit": 20,
+    "showItineraries": true,
+    "itinerariesLimit": 6,
+    "showAttractions": true,
+    "attractionsLimit": 6,
+    "showTravelInfo": true,
+    "showBestTimeToVisit": true,
+    "showMap": false
+  },
+  "sidebar": {
+    "showQuickFacts": true,
+    "showContinent": true,
+    "showCurrency": true,
+    "showLanguage": true,
+    "showTimezone": true,
+    "showBestTimeToVisit": true,
+    "showCityCount": true,
+    "showShareButton": true,
+    "showTravelCTA": false
+  },
+  "labels": {},
+  "continentLabels": [],
+  "schema": {
+    "enableJsonLd": true,
+    "schemaType": "Country",
+    "enableOpenGraph": true,
+    "enableTwitterCard": true
+  }
+}

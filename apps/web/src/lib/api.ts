@@ -2,6 +2,10 @@ import { defaultLocale } from '@/i18n';
 import { getRandomMockImageSrc } from '@/assets/mockImages';
 
 const CMS_URL = process.env.NEXT_PUBLIC_CMS_URL || 'http://localhost:3001';
+const DATA_SOURCE = process.env.NEXT_PUBLIC_DATA_SOURCE || (
+  process.env.NEXT_PUBLIC_USE_MOCK_DATA === 'true' ? 'mock' : 'cms'
+);
+const USE_MOCK_DATA = DATA_SOURCE === 'mock';
 
 interface MediaLike {
   url?: string | null;
@@ -16,6 +20,7 @@ export function getImageUrl(url: string | undefined): string | undefined {
   if (!url) return undefined;
   if (
     url.includes('placeholder.png') ||
+    (USE_MOCK_DATA && url.startsWith('/media/')) ||
     url.endsWith('/media/null') ||
     url.endsWith('/media/undefined') ||
     url === 'null' ||
@@ -73,6 +78,11 @@ async function fetchFromCMS<T>(
   endpoint: string,
   options: FetchOptions = {}
 ): Promise<PaginatedResponse<T>> {
+  if (USE_MOCK_DATA) {
+    const { fetchFromMock } = await import('./mock-data');
+    return fetchFromMock<T>(endpoint, options);
+  }
+
   const { 
     limit = 10, 
     page = 1, 
@@ -164,6 +174,11 @@ async function fetchOneFromCMS<T>(
   depth = 2,
   locale?: string
 ): Promise<T | null> {
+  if (USE_MOCK_DATA) {
+    const { fetchOneFromMock } = await import('./mock-data');
+    return fetchOneFromMock<T>(endpoint, slug, { depth, locale });
+  }
+
   const params = new URLSearchParams({
     'where[slug][equals]': slug,
     depth: depth.toString(),
@@ -312,32 +327,7 @@ export function getPageBySlug(slug: string, locale?: string) {
  * GET /api/globals/destinations-page?depth=3&locale=en
  */
 export async function getDestinationsPageConfig(locale?: string) {
-  const params = new URLSearchParams({
-    depth: '3',
-  });
-
-  if (locale) {
-    params.append('locale', locale);
-    params.append('fallback-locale', defaultLocale);
-  }
-
-  const url = `${CMS_URL}/api/globals/destinations-page?${params.toString()}`;
-
-  try {
-    const res = await fetch(url, {
-      next: { revalidate: 60 },
-    });
-
-    if (!res.ok) {
-      console.error('Failed to fetch destinations config:', res.status, res.statusText);
-      return null;
-    }
-
-    return res.json();
-  } catch (error) {
-    console.error('Error fetching destinations config:', error);
-    return null;
-  }
+  return fetchGlobalFromCMS('destinations-page', { locale, depth: 3 });
 }
 
 // ============================================================================
@@ -434,6 +424,11 @@ async function fetchGlobalFromCMS<T>(
   slug: string,
   options: { depth?: number; locale?: string } = {}
 ): Promise<T | null> {
+  if (USE_MOCK_DATA) {
+    const { fetchGlobalFromMock } = await import('./mock-data');
+    return fetchGlobalFromMock<T>(slug, options);
+  }
+
   const { depth = 3, locale } = options;
 
   const params = new URLSearchParams({

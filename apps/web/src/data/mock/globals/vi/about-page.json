@@ -1,0 +1,50 @@
+{
+  "hero": {
+    "height": "large",
+    "overlayStyle": "medium",
+    "contentPosition": "bottom-left",
+    "textAlignment": "left",
+    "showAccentLine": true
+  },
+  "intro": {
+    "enabled": true,
+    "title": "Your Journey Begins Here"
+  },
+  "story": {
+    "enabled": true,
+    "eyebrow": "Our Story",
+    "title": "From Wanderlust to Purpose"
+  },
+  "mission": {
+    "enabled": true,
+    "eyebrow": "Our Mission",
+    "imagePosition": "right"
+  },
+  "values": {
+    "items": [],
+    "enabled": true,
+    "eyebrow": "Our Values",
+    "columns": "3",
+    "backgroundColor": "light"
+  },
+  "whyChoose": {
+    "items": [],
+    "enabled": true,
+    "eyebrow": "Why Choose Us",
+    "title": "Travel With Confidence"
+  },
+  "team": {
+    "members": [],
+    "enabled": false,
+    "title": "Meet Our Team"
+  },
+  "stats": {
+    "items": [],
+    "enabled": true,
+    "backgroundColor": "dark"
+  },
+  "cta": {
+    "enabled": true
+  },
+  "seo": {}
+}

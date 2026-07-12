@@ -1,0 +1,79 @@
+{
+  "hero": {
+    "title": "Partner With Us",
+    "subtitle": "Your trusted destination management partner in Southeast Asia",
+    "height": "medium",
+    "overlayStyle": "medium",
+    "ctaText": "Start Partnership Inquiry",
+    "ctaLink": "/partners/inquiry"
+  },
+  "valueProposition": {
+    "benefits": [],
+    "enabled": true,
+    "eyebrow": "Why Partner With Us",
+    "title": "Your Success Is Our Mission"
+  },
+  "partnershipModels": {
+    "models": [],
+    "enabled": true,
+    "eyebrow": "How We Work Together",
+    "title": "Partnership Models",
+    "layout": "cards"
+  },
+  "process": {
+    "steps": [],
+    "enabled": true,
+    "eyebrow": "Getting Started",
+    "title": "How We Start Working Together"
+  },
+  "credentials": {
+    "downloads": [],
+    "certifications": [],
+    "enabled": true,
+    "eyebrow": "Due Diligence",
+    "title": "Our Credentials"
+  },
+  "stats": {
+    "enabled": true,
+    "eyebrow": "Our Track Record",
+    "title": "Proven Results",
+    "items": [
+      {
+        "number": "7+",
+        "label": "Years Experience",
+        "description": "Operating since 2019"
+      },
+      {
+        "number": "50+",
+        "label": "Active Partners",
+        "description": "Worldwide"
+      },
+      {
+        "number": "6",
+        "label": "Destinations",
+        "description": "Across Southeast Asia"
+      },
+      {
+        "number": "24/7",
+        "label": "Support",
+        "description": "For active bookings"
+      }
+    ],
+    "backgroundColor": "dark"
+  },
+  "testimonialHighlight": {
+    "enabled": true,
+    "linkText": "View More Partner Stories",
+    "linkUrl": "/case-studies"
+  },
+  "inquiryCta": {
+    "enabled": true,
+    "title": "Ready to Start?",
+    "description": "Tell us about your business and how we can work together.",
+    "primaryButtonText": "Submit Partnership Inquiry",
+    "primaryButtonLink": "/partners/inquiry",
+    "secondaryButtonText": "Schedule a Call",
+    "contactEmail": "partners@voyager.travel"
+  },
+  "seo": {}
+}

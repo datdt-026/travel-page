@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "title": "Sustainability & Responsibility",
+    "subtitle": "Our commitment to responsible tourism and sustainable operations",
+    "height": "medium",
+    "overlayStyle": "medium"
+  },
+  "philosophy": {
+    "enabled": true,
+    "eyebrow": "Our Commitment",
+    "title": "Sustainability Philosophy"
+  },
+  "certifications": {
+    "items": [],
+    "enabled": true,
+    "eyebrow": "Verified Standards",
+    "title": "Certifications & Memberships"
+  },
+  "initiatives": {
+    "items": [],
+    "enabled": true,
+    "eyebrow": "What We Do",
+    "title": "Our Initiatives"
+  },
+  "opStandards": {
+    "practices": [],
+    "enabled": true,
+    "eyebrow": "Operating Standards",
+    "title": "Responsible Tourism Practices"
+  },
+  "practices": {
+    "categories": [],
+    "enabled": false
+  },
+  "supplierStandards": {
+    "criteria": [],
+    "enabled": true,
+    "eyebrow": "Supply Chain",
+    "title": "Partner & Supplier Standards"
+  },
+  "impact": {
+    "items": [],
+    "enabled": true,
+    "eyebrow": "Our Impact",
+    "title": "Measurable Results"
+  },
+  "cta": {
+    "enabled": true,
+    "title": "Partner With a Responsible Operator",
+    "primaryButtonText": "Discuss Partnership",
+    "primaryButtonLink": "/partners/inquiry"
+  },
+  "seo": {}
+}

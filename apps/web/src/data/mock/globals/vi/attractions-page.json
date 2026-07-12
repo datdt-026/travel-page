@@ -1,0 +1,14 @@
+{
+  "hero": {},
+  "listing": {
+    "maxItems": 12,
+    "showFilters": true,
+    "showSearch": true,
+    "searchPlaceholder": "Search places..."
+  },
+  "emptyState": {
+    "title": "No places match your selection",
+    "message": "Try adjusting your filters to discover more."
+  },
+  "seo": {}
+}

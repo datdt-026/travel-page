@@ -1,0 +1,362 @@
+[
+  {
+    "id": 5,
+    "name": "Vietnam",
+    "slug": "vietnam",
+    "continent": "asia",
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Journey through stunning landscapes, rich history, and incredible cuisine."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Journey through stunning landscapes, rich history, and incredible cuisine.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Japan Featured Image",
+      "caption": "Beautiful view of Japan",
+      "credit": "Travel Photography",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "currency": "VND",
+    "language": "Vietnamese",
+    "timezone": "ICT (UTC+7)",
+    "bestTimeToVisit": "February to April for North, December to April for South.",
+    "metaTitle": "Vietnam Travel Guide",
+    "metaDescription": "Journey through stunning landscapes, rich history, and incredible cuisine.",
+    "metaKeywords": null,
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.313Z",
+    "updatedAt": "2026-06-26T03:24:47.313Z",
+    "createdAt": "2026-06-26T03:24:47.313Z"
+  },
+  {
+    "id": 4,
+    "name": "Italy",
+    "slug": "italy",
+    "continent": "europe",
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Immerse yourself in art, history, and the finest cuisine in the Mediterranean."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Immerse yourself in art, history, and the finest cuisine in the Mediterranean.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Japan Featured Image",
+      "caption": "Beautiful view of Japan",
+      "credit": "Travel Photography",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "currency": "EUR",
+    "language": "Italian",
+    "timezone": "CET (UTC+1)",
+    "bestTimeToVisit": "April to June or September to October for ideal weather.",
+    "metaTitle": "Italy Travel Guide",
+    "metaDescription": "Immerse yourself in art, history, and the finest cuisine in the Mediterranean.",
+    "metaKeywords": null,
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.299Z",
+    "updatedAt": "2026-06-26T03:24:47.299Z",
+    "createdAt": "2026-06-26T03:24:47.299Z"
+  },
+  {
+    "id": 3,
+    "name": "Thailand",
+    "slug": "thailand",
+    "continent": "asia",
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Explore tropical beaches, ancient temples, and vibrant street food culture."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Explore tropical beaches, ancient temples, and vibrant street food culture.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Japan Featured Image",
+      "caption": "Beautiful view of Japan",
+      "credit": "Travel Photography",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "currency": "THB",
+    "language": "Thai",
+    "timezone": "ICT (UTC+7)",
+    "bestTimeToVisit": "November to February for cool, dry weather.",
+    "metaTitle": "Thailand Travel Guide",
+    "metaDescription": "Explore tropical beaches, ancient temples, and vibrant street food culture.",
+    "metaKeywords": null,
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.282Z",
+    "updatedAt": "2026-06-26T03:24:47.282Z",
+    "createdAt": "2026-06-26T03:24:47.282Z"
+  },
+  {
+    "id": 2,
+    "name": "France",
+    "slug": "france",
+    "continent": "europe",
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Discover romance, art, and culinary excellence in the heart of Europe."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Discover romance, art, and culinary excellence in the heart of Europe.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Japan Featured Image",
+      "caption": "Beautiful view of Japan",
+      "credit": "Travel Photography",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "currency": "EUR",
+    "language": "French",
+    "timezone": "CET (UTC+1)",
+    "bestTimeToVisit": "Spring (April-June) or Fall (September-October) for pleasant weather.",
+    "metaTitle": "France Travel Guide",
+    "metaDescription": "Discover romance, art, and culinary excellence in the heart of Europe.",
+    "metaKeywords": null,
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.263Z",
+    "updatedAt": "2026-06-26T03:24:47.262Z",
+    "createdAt": "2026-06-26T03:24:47.262Z"
+  },
+  {
+    "id": 1,
+    "name": "Japan",
+    "slug": "japan",
+    "continent": "asia",
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Experience the perfect blend of ancient tradition and modern innovation in the Land of the Rising Sun."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Experience the perfect blend of ancient tradition and modern innovation in the Land of the Rising Sun.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Japan Featured Image",
+      "caption": "Beautiful view of Japan",
+      "credit": "Travel Photography",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "currency": "JPY",
+    "language": "Japanese",
+    "timezone": "JST (UTC+9)",
+    "bestTimeToVisit": "Spring (March-May) for cherry blossoms, or Autumn (September-November) for fall colors.",
+    "metaTitle": "Japan Travel Guide",
+    "metaDescription": "Experience the perfect blend of ancient tradition and modern innovation in the Land of the Rising Sun.",
+    "metaKeywords": null,
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.240Z",
+    "updatedAt": "2026-06-26T03:24:47.241Z",
+    "createdAt": "2026-06-26T03:24:47.241Z"
+  }
+]

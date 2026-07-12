@@ -1,0 +1,362 @@
+[
+  {
+    "id": 5,
+    "name": "Việt Nam",
+    "slug": "vietnam",
+    "continent": "asia",
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Hành trình qua cảnh quan tuyệt đẹp, lịch sử phong phú và nền ẩm thực đặc sắc."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Hành trình qua cảnh quan tuyệt đẹp, lịch sử phong phú và nền ẩm thực đặc sắc.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Việt Nam",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "currency": "VND",
+    "language": "Tiếng Việt",
+    "timezone": "ICT (UTC+7)",
+    "bestTimeToVisit": "Tháng 2 đến tháng 4 ở miền Bắc, tháng 12 đến tháng 4 ở miền Nam.",
+    "metaTitle": "Cẩm nang du lịch Việt Nam",
+    "metaDescription": "Hành trình qua cảnh quan tuyệt đẹp, lịch sử phong phú và nền ẩm thực đặc sắc.",
+    "metaKeywords": "du lịch Việt Nam, cẩm nang Việt Nam, điểm đến Việt Nam",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.313Z",
+    "updatedAt": "2026-06-26T03:24:47.313Z",
+    "createdAt": "2026-06-26T03:24:47.313Z"
+  },
+  {
+    "id": 4,
+    "name": "Ý",
+    "slug": "italy",
+    "continent": "europe",
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Đắm mình trong nghệ thuật, lịch sử và tinh hoa ẩm thực Địa Trung Hải."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Đắm mình trong nghệ thuật, lịch sử và tinh hoa ẩm thực Địa Trung Hải.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Ý",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "currency": "EUR",
+    "language": "Tiếng Ý",
+    "timezone": "CET (UTC+1)",
+    "bestTimeToVisit": "Tháng 4 đến tháng 6 và tháng 9 đến tháng 10.",
+    "metaTitle": "Cẩm nang du lịch Ý",
+    "metaDescription": "Đắm mình trong nghệ thuật, lịch sử và tinh hoa ẩm thực Địa Trung Hải.",
+    "metaKeywords": "du lịch Ý, cẩm nang Ý, điểm đến Ý",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.299Z",
+    "updatedAt": "2026-06-26T03:24:47.299Z",
+    "createdAt": "2026-06-26T03:24:47.299Z"
+  },
+  {
+    "id": 3,
+    "name": "Thái Lan",
+    "slug": "thailand",
+    "continent": "asia",
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Khám phá bãi biển nhiệt đới, đền cổ và văn hóa ẩm thực đường phố sôi động."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Khám phá bãi biển nhiệt đới, đền cổ và văn hóa ẩm thực đường phố sôi động.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Thái Lan",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "currency": "THB",
+    "language": "Tiếng Thái",
+    "timezone": "ICT (UTC+7)",
+    "bestTimeToVisit": "Tháng 11 đến tháng 2.",
+    "metaTitle": "Cẩm nang du lịch Thái Lan",
+    "metaDescription": "Khám phá bãi biển nhiệt đới, đền cổ và văn hóa ẩm thực đường phố sôi động.",
+    "metaKeywords": "du lịch Thái Lan, cẩm nang Thái Lan, điểm đến Thái Lan",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.282Z",
+    "updatedAt": "2026-06-26T03:24:47.282Z",
+    "createdAt": "2026-06-26T03:24:47.282Z"
+  },
+  {
+    "id": 2,
+    "name": "Pháp",
+    "slug": "france",
+    "continent": "europe",
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Khám phá sự lãng mạn, nghệ thuật và tinh hoa ẩm thực ở trái tim châu Âu."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Khám phá sự lãng mạn, nghệ thuật và tinh hoa ẩm thực ở trái tim châu Âu.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Pháp",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "currency": "EUR",
+    "language": "Tiếng Pháp",
+    "timezone": "CET (UTC+1)",
+    "bestTimeToVisit": "Tháng 4 đến tháng 6 và tháng 9 đến tháng 10.",
+    "metaTitle": "Cẩm nang du lịch Pháp",
+    "metaDescription": "Khám phá sự lãng mạn, nghệ thuật và tinh hoa ẩm thực ở trái tim châu Âu.",
+    "metaKeywords": "du lịch Pháp, cẩm nang Pháp, điểm đến Pháp",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.263Z",
+    "updatedAt": "2026-06-26T03:24:47.262Z",
+    "createdAt": "2026-06-26T03:24:47.262Z"
+  },
+  {
+    "id": 1,
+    "name": "Nhật Bản",
+    "slug": "japan",
+    "continent": "asia",
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Trải nghiệm sự hòa quyện giữa truyền thống cổ xưa và đổi mới hiện đại tại xứ sở mặt trời mọc."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Trải nghiệm sự hòa quyện giữa truyền thống cổ xưa và đổi mới hiện đại tại xứ sở mặt trời mọc.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Nhật Bản",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "currency": "JPY",
+    "language": "Tiếng Nhật",
+    "timezone": "JST (UTC+9)",
+    "bestTimeToVisit": "Tháng 3 đến tháng 5 và tháng 10 đến tháng 11.",
+    "metaTitle": "Cẩm nang du lịch Nhật Bản",
+    "metaDescription": "Trải nghiệm sự hòa quyện giữa truyền thống cổ xưa và đổi mới hiện đại tại xứ sở mặt trời mọc.",
+    "metaKeywords": "du lịch Nhật Bản, cẩm nang Nhật Bản, điểm đến Nhật Bản",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.240Z",
+    "updatedAt": "2026-06-26T03:24:47.241Z",
+    "createdAt": "2026-06-26T03:24:47.241Z"
+  }
+]
