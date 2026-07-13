@@ -73,6 +73,7 @@ export { default as PracticalEssentials } from './PracticalEssentials';
 export { default as ItinerarySectionRenderer } from './ItinerarySectionRenderer';
 export { default as ItineraryHero } from './ItineraryHero';
 export { default as JourneySidebar } from './JourneySidebar';
+export { default as ItineraryDetailTabs } from './ItineraryDetailTabs';
 
 // Schedule orientation components (soft, editorial)
 export { default as JourneySummary } from './JourneySummary';

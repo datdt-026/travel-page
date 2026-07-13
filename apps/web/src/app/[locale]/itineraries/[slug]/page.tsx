@@ -3,13 +3,9 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { getItineraryBySlug, getItineraries, getItineraryDetailConfig, getImageUrl } from '@/lib/api';
-import RichText from '@/components/RichText';
-import ShareButton from '@/components/ShareButton';
-import Section from '@/components/Section';
 import { 
   ItineraryHero, 
-  ItinerarySectionRenderer, 
-  JourneySidebar,
+  ItineraryDetailTabs,
   JourneySummary
 } from '@/components/itinerary';
 import { Itinerary, ItineraryDetailConfig, Media } from '@/types';
@@ -74,69 +70,6 @@ export async function generateStaticParams() {
   }));
 }
 
-// Helper function to get hero height class
-function getHeroHeightClass(height?: string): string {
-  switch (height) {
-    case 'medium':
-      return 'h-[50vh] min-h-[400px]';
-    case 'large':
-      return 'h-[60vh] min-h-[500px]';
-    case 'full':
-      return 'h-[80vh] min-h-[600px]';
-    default:
-      return 'h-[50vh] min-h-[400px]';
-  }
-}
-
-// Helper function to get overlay class
-function getOverlayClass(style?: string): string {
-  switch (style) {
-    case 'none':
-      return '';
-    case 'light':
-      return 'bg-black/30';
-    case 'medium':
-      return 'bg-black/50';
-    case 'heavy':
-      return 'bg-black/70';
-    case 'gradient':
-      return 'bg-gradient-to-t from-black/80 via-black/40 to-transparent';
-    default:
-      return 'bg-black/50';
-  }
-}
-
-// Helper function to get content width class
-function getContentWidthClass(layout?: string): string {
-  switch (layout) {
-    case 'full-width':
-      return 'max-w-7xl';
-    case 'centered':
-      return 'max-w-4xl';
-    case 'sidebar-left':
-    case 'sidebar-right':
-      return 'max-w-6xl';
-    default:
-      return 'max-w-6xl';
-  }
-}
-
-// Helper function to get day style
-function getDayStyle(style?: string): string {
-  switch (style) {
-    case 'timeline':
-      return 'border-l-4 border-blue-500 pl-6 relative';
-    case 'cards':
-      return 'bg-white rounded-xl shadow-md p-6';
-    case 'accordion':
-      return 'border border-gray-200 rounded-lg';
-    case 'tabs':
-      return '';
-    default:
-      return 'border-l-4 border-blue-500 pl-6 relative';
-  }
-}
-
 // Helper to get image URL
 function getFeaturedImageUrl(image: Media | string | undefined): string | undefined {
   if (!image) return undefined;
@@ -157,7 +90,7 @@ export default async function ItineraryDetailPage({ params }: Props) {
   const relatedItineraries = (relatedResponse?.docs || []) as Itinerary[];
 
   if (!itinerary) {
-    notFound();
+    return notFound();
   }
 
   // Determine presentation mode (type-safe access)
@@ -172,8 +105,6 @@ export default async function ItineraryDetailPage({ params }: Props) {
 
   // Extract config with defaults
   const heroConfig = config?.hero || {};
-  const editorialLayoutConfig = config?.editorialLayout || {};
-  const layoutConfig = config?.contentLayout || {};
   const sectionsConfig = config?.sections || {};
   const sidebarConfig = config?.sidebar || {};
   const labelsConfig = config?.labels || {};
@@ -182,8 +113,6 @@ export default async function ItineraryDetailPage({ params }: Props) {
   // EDITORIAL MODE RENDERING
   // ═══════════════════════════════════════════════════════════════════
   if (isEditorialMode && hasEditorialSections) {
-    const showSidebar = editorialLayoutConfig.showSidebar && editorialLayoutConfig.layout === 'centered-sidebar';
-    
     return (
       <main className="min-h-screen bg-white">
         {/* Editorial Hero */}
@@ -213,43 +142,20 @@ export default async function ItineraryDetailPage({ params }: Props) {
           />
         </div>
 
-        {/* Editorial Content */}
-        <div className={`${
-          showSidebar
-            ? 'max-w-7xl mx-auto px-6 py-16 md:py-24 grid lg:grid-cols-[1fr_320px] gap-16'
-            : 'py-8 md:py-16'
-        }`}>
-          {/* Main Content */}
-          <div>
-            <ItinerarySectionRenderer 
-              sections={editorialSections} 
-              locale={locale} 
-            />
-          </div>
-
-          {/* Sidebar (for centered-sidebar layout) */}
-          {showSidebar && (
-            <div className="lg:sticky lg:top-24 lg:self-start">
-              <JourneySidebar
-                title={itinerary.title}
-                duration={itinerary.duration}
-                difficulty={itinerary.difficulty}
-                estimatedBudget={itinerary.estimatedBudget}
-                countries={itinerary.countries}
-                cities={itinerary.cities}
-                travelStyles={itinerary.travelStyle}
-                locale={locale}
-                showTripDetails={sidebarConfig.showTripDetails !== false}
-                showCountries={sidebarConfig.showCountries !== false}
-                showCities={sidebarConfig.showCities !== false}
-                showShareButton={sidebarConfig.showShareButton !== false}
-                showContactCTA={sidebarConfig.showBookingCTA}
-                contactCtaText={sidebarConfig.bookingCtaText || 'Inquire'}
-                contactCtaLink={sidebarConfig.bookingCtaLink || '/contact'}
-              />
-            </div>
-          )}
-        </div>
+        <ItineraryDetailTabs
+          itinerary={itinerary}
+          locale={locale}
+          editorialSections={editorialSections}
+          labels={{
+            dayLabel: labelsConfig.dayLabel || 'Day',
+            overviewTitle: 'Journey Overview',
+            packingListTitle: labelsConfig.packingListTitle,
+            tipsTitle: labelsConfig.tipsTitle,
+          }}
+          showActivities={sectionsConfig.showActivities !== false}
+          contactHref={sidebarConfig.bookingCtaLink || `/${locale}/contact`}
+          contactText={sidebarConfig.bookingCtaText || 'Inquire'}
+        />
 
         {/* Related Itineraries (Editorial Style) */}
         {sectionsConfig.showRelatedItineraries !== false && (
@@ -276,28 +182,17 @@ export default async function ItineraryDetailPage({ params }: Props) {
   const showDuration = heroConfig.showDuration !== false;
   const showDifficulty = heroConfig.showDifficulty !== false;
 
-  // Layout settings
-  const layout = layoutConfig.layout || 'sidebar-right';
-  const showSidebar = layout !== 'full-width' && layout !== 'centered';
-  const sidebarPosition = layout === 'sidebar-left' ? 'left' : 'right';
-
   // Sections settings
   const showDayByDay = sectionsConfig.showDayByDay !== false;
-  const dayByDayStyle = sectionsConfig.dayByDayStyle || 'timeline';
   const showRelated = sectionsConfig.showRelatedItineraries !== false;
   const relatedLimit = sectionsConfig.relatedItinerariesLimit || 3;
 
   // Sidebar settings
-  const showTripDetails = sidebarConfig.showTripDetails !== false;
-  const showCountries = sidebarConfig.showCountries !== false;
-  const showCities = sidebarConfig.showCities !== false;
   const showBookingCTA = sidebarConfig.showBookingCTA !== false;
   const bookingCtaText = sidebarConfig.bookingCtaText || 'Book This Trip';
   const bookingCtaLink = sidebarConfig.bookingCtaLink || '/contact';
 
   // Labels
-  const dayByDayTitle = labelsConfig.dayByDayTitle || 'Day by Day Itinerary';
-  const tripDetailsTitle = labelsConfig.tripDetailsTitle || 'Trip Details';
   const dayLabel = labelsConfig.dayLabel || 'Day';
   const relatedTitle = labelsConfig.relatedTitle || 'Related Itineraries';
 
@@ -497,184 +392,19 @@ export default async function ItineraryDetailPage({ params }: Props) {
         </div>
       </section>
 
-      {/* ─────────────────────────────────────────────────────────────────
-          MAIN CONTENT - Single column, editorial reading experience
-      ───────────────────────────────────────────────────────────────── */}
-      <div className="max-w-3xl mx-auto px-6 py-20 md:py-28">
-        
-        {/* Back Link - subtle */}
-        <Link
-          href={`/${locale}/itineraries`}
-          className="inline-flex items-center gap-2 text-sm text-neutral-400 hover:text-neutral-700 transition-colors mb-16"
-        >
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19l-7-7 7-7" />
-          </svg>
-          <span className="uppercase tracking-[0.15em]">{t.back}</span>
-        </Link>
-
-        {/* Overview Section */}
-        {sectionsConfig.showIntroduction !== false && itinerary.description && (
-          <article className="mb-20 md:mb-28">
-            <h2 className="font-serif text-3xl md:text-4xl font-light text-neutral-900 mb-10">
-              {t.overview}
-            </h2>
-            <div className="prose prose-lg prose-neutral max-w-none
-              prose-p:text-neutral-600 prose-p:font-light prose-p:leading-relaxed
-              prose-headings:font-light prose-headings:text-neutral-900
-              prose-a:text-neutral-900 prose-a:underline-offset-4
-              prose-strong:font-normal prose-strong:text-neutral-800
-            ">
-              <RichText content={itinerary.description} />
-            </div>
-          </article>
-        )}
-
-        {/* Destinations - Elegant inline list */}
-        {(showCountries || showCities) && ((itinerary.countries?.length ?? 0) > 0 || (itinerary.cities?.length ?? 0) > 0) && (
-          <aside className="mb-20 md:mb-28 py-12 border-y border-neutral-100">
-            <h3 className="text-xs uppercase tracking-[0.2em] text-neutral-400 mb-6">
-              {t.destinations}
-            </h3>
-            <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
-              {showCountries && itinerary.countries?.map((country, index) => {
-                const countryName = typeof country === 'string' ? country : country.name;
-                const countrySlug = typeof country === 'string' ? null : country.slug;
-                return (
-                  <span key={`country-${index}`} className="inline-flex items-center">
-                    {countrySlug ? (
-                      <Link
-                        href={`/${locale}/destinations/${countrySlug}`}
-                        className="text-lg text-neutral-800 hover:text-neutral-600 transition-colors"
-                      >
-                        {countryName}
-                      </Link>
-                    ) : (
-                      <span className="text-lg text-neutral-800">{countryName}</span>
-                    )}
-                    {index < (itinerary.countries?.length || 0) - 1 && (
-                      <span className="ml-3 text-neutral-300">·</span>
-                    )}
-                  </span>
-                );
-              })}
-              {showCountries && showCities && (itinerary.countries?.length ?? 0) > 0 && (itinerary.cities?.length ?? 0) > 0 && (
-                <span className="text-neutral-200 mx-2">|</span>
-              )}
-              {showCities && itinerary.cities?.map((city, index) => {
-                const cityName = typeof city === 'string' ? city : city.name;
-                return (
-                  <span key={`city-${index}`} className="inline-flex items-center">
-                    <span className="text-neutral-500">{cityName}</span>
-                    {index < (itinerary.cities?.length || 0) - 1 && (
-                      <span className="ml-3 text-neutral-300">·</span>
-                    )}
-                  </span>
-                );
-              })}
-            </div>
-          </aside>
-        )}
-
-        {/* Day by Day - Refined timeline */}
-        {showDayByDay && itinerary.days && itinerary.days.length > 0 && (
-          <article className="mb-20 md:mb-28">
-            <h2 className="font-serif text-3xl md:text-4xl font-light text-neutral-900 mb-12">
-              {dayByDayTitle || t.dayByDay}
-            </h2>
-            
-            <div className="space-y-0">
-              {itinerary.days.map((day, index) => (
-                <div 
-                  key={index} 
-                  className="relative pl-8 pb-12 last:pb-0 border-l border-neutral-200"
-                >
-                  {/* Timeline marker */}
-                  <div className="absolute -left-[5px] top-0 w-[10px] h-[10px] rounded-full bg-neutral-300" />
-                  
-                  {/* Day header */}
-                  <div className="mb-4">
-                    <span className="text-xs uppercase tracking-[0.2em] text-neutral-400">
-                      {dayLabel} {day.dayNumber}
-                    </span>
-                    <h3 className="text-xl md:text-2xl font-light text-neutral-900 mt-1">
-                      {day.title}
-                    </h3>
-                  </div>
-                  
-                  {/* Day description */}
-                  {day.description && (
-                    <div className="prose prose-neutral max-w-none mb-6
-                      prose-p:text-neutral-600 prose-p:font-light prose-p:leading-relaxed prose-p:text-[15px]
-                    ">
-                      <RichText content={day.description} />
-                    </div>
-                  )}
-                  
-                  {/* Activities - refined list */}
-                  {sectionsConfig.showActivities !== false && day.activities && day.activities.length > 0 && (
-                    <div className="mt-6 pt-6 border-t border-neutral-100">
-                      <ul className="space-y-3">
-                        {day.activities.map((activity, actIndex) => (
-                          <li key={actIndex} className="flex items-start gap-3">
-                            <span className="w-1 h-1 rounded-full bg-neutral-400 mt-2.5 flex-shrink-0" />
-                            <div>
-                              <span className="text-neutral-800">{activity.activity}</span>
-                              {activity.description && (
-                                <p className="text-sm text-neutral-500 mt-0.5">{activity.description}</p>
-                              )}
-                            </div>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
-          </article>
-        )}
-
-        {/* Packing List - Clean checklist */}
-        {sectionsConfig.showPackingList !== false && itinerary.packingList && itinerary.packingList.length > 0 && (
-          <article className="mb-20 md:mb-28">
-            <h2 className="font-serif text-3xl md:text-4xl font-light text-neutral-900 mb-10">
-              {labelsConfig.packingListTitle || t.packingList}
-            </h2>
-            <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3">
-              {itinerary.packingList.map((item, index) => (
-                <li key={index} className="flex items-center gap-3 text-neutral-600">
-                  <span className="w-4 h-px bg-neutral-300 flex-shrink-0" />
-                  {item.item}
-                </li>
-              ))}
-            </ul>
-          </article>
-        )}
-
-        {/* Tips Section - Editorial note style */}
-        {sectionsConfig.showTips !== false && itinerary.tips && (
-          <article className="mb-20 md:mb-28">
-            <h2 className="font-serif text-3xl md:text-4xl font-light text-neutral-900 mb-10">
-              {labelsConfig.tipsTitle || t.tips}
-            </h2>
-            <div className="pl-6 border-l-2 border-neutral-200">
-              <div className="prose prose-neutral max-w-none
-                prose-p:text-neutral-600 prose-p:font-light prose-p:leading-relaxed
-              ">
-                <RichText content={itinerary.tips} />
-              </div>
-            </div>
-          </article>
-        )}
-
-        {/* Share Section */}
-        {sidebarConfig.showShareButton !== false && (
-          <div className="py-8 border-t border-neutral-100">
-            <ShareButton title={itinerary.title} />
-          </div>
-        )}
-      </div>
+      <ItineraryDetailTabs
+        itinerary={itinerary}
+        locale={locale}
+        labels={{
+          dayLabel,
+          overviewTitle: t.overview,
+          packingListTitle: labelsConfig.packingListTitle || t.packingList,
+          tipsTitle: labelsConfig.tipsTitle || t.tips,
+        }}
+        showActivities={sectionsConfig.showActivities !== false && showDayByDay}
+        contactHref={bookingCtaLink || `/${locale}/contact`}
+        contactText={bookingCtaText || t.inquire}
+      />
 
       {/* ─────────────────────────────────────────────────────────────────
           CTA SECTION - Full-width, subtle elegance

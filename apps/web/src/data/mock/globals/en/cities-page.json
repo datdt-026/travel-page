@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "height": "medium",
+    "overlayStyle": "medium",
+    "contentPosition": "bottom-left",
+    "textAlignment": "left",
+    "showBreadcrumb": true
+  },
+  "listing": {
+    "filterOptions": {
+      "showCountryFilter": true,
+      "showRegionFilter": false
+    },
+    "itemsPerPage": 12,
+    "layout": "grid",
+    "columns": "3",
+    "showFilters": true,
+    "showSearch": true,
+    "searchPlaceholder": "Search cities...",
+    "sortOptions": [
+      "name",
+      "popular"
+    ]
+  },
+  "featured": {
+    "enabled": true,
+    "title": "Popular Cities",
+    "displayMode": "auto",
+    "limit": 6,
+    "layout": "grid"
+  },
+  "countriesSection": {
+    "enabled": true,
+    "title": "Explore by Country",
+    "displayStyle": "flags"
+  },
+  "emptyState": {
+    "title": "No Cities Found",
+    "message": "Try adjusting your search or check back later."
+  },
+  "seo": {}
+}

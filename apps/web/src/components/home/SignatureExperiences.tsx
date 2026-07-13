@@ -90,6 +90,8 @@ export default function SignatureExperiences({
         <div className="space-y-24 md:space-y-32 lg:space-y-40">
           {featuredExperiences.map((experience, index) => {
             const imageUrl = getImageUrl(experience.featuredImage);
+            const experienceTitle =
+              experience.title?.trim() || experience.slug || 'Itinerary';
             const isReversed = index % 2 === 1;
             
             // Build card styles
@@ -118,7 +120,7 @@ export default function SignatureExperiences({
                       {imageUrl ? (
                         <Image
                           src={imageUrl}
-                          alt={experience.title}
+                          alt={experienceTitle}
                           fill
                           className="object-cover transition-transform duration-1000 ease-elegant group-hover:scale-[1.03]"
                           sizes="(max-width: 1024px) 100vw, 60vw"
@@ -142,6 +144,15 @@ export default function SignatureExperiences({
                         </span>
                       </div>
                     )}
+
+                    <div className="absolute inset-x-0 bottom-0 p-6 md:p-8 bg-gradient-to-t from-black/75 via-black/30 to-transparent">
+                      <h3
+                        className="font-serif text-2xl md:text-3xl lg:text-4xl text-white leading-tight"
+                        style={styling?.cardTitleColor ? { color: styling.cardTitleColor } : undefined}
+                      >
+                        {experienceTitle}
+                      </h3>
+                    </div>
                   </Link>
                 </div>
 
@@ -164,7 +175,7 @@ export default function SignatureExperiences({
                         className="font-serif text-heading-xl mb-6 transition-colors duration-300"
                         style={{ color: styling?.cardTitleColor || 'var(--content-primary)' }}
                       >
-                        {experience.title}
+                        {experienceTitle}
                       </h3>
                     </Link>
                     

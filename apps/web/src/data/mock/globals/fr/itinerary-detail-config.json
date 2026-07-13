@@ -1,0 +1,67 @@
+{
+  "hero": {
+    "height": "large",
+    "overlayStyle": "medium",
+    "contentPosition": "bottom-left",
+    "showBreadcrumb": true,
+    "showDuration": true,
+    "showDifficulty": true,
+    "showTravelStyles": true,
+    "maxTravelStylesInHero": 3,
+    "animationStyle": "fade-up"
+  },
+  "editorialLayout": {
+    "layout": "full-width",
+    "sectionSpacing": "generous",
+    "showTableOfContents": false,
+    "showProgressIndicator": false,
+    "showSidebar": true,
+    "sidebarStyle": "minimal"
+  },
+  "contentLayout": {
+    "layout": "sidebar-right",
+    "sidebarWidth": "normal",
+    "stickybar": true
+  },
+  "sections": {
+    "showIntroduction": true,
+    "showDayByDay": true,
+    "dayByDayStyle": "timeline",
+    "showActivities": true,
+    "activitiesStyle": "cards",
+    "showAccommodation": true,
+    "showMeals": true,
+    "showPackingList": true,
+    "packingListStyle": "checklist",
+    "showTips": true,
+    "showMap": false,
+    "showGallery": false,
+    "showRelatedItineraries": true,
+    "relatedItinerariesLimit": 3
+  },
+  "sidebar": {
+    "showTripDetails": true,
+    "showDuration": true,
+    "showDifficulty": true,
+    "showBudget": true,
+    "showCountries": true,
+    "showCities": true,
+    "showTravelStyles": true,
+    "showAuthor": false,
+    "showShareButton": true,
+    "showDownloadPDF": false,
+    "showBookingCTA": false,
+    "showQuickJump": true
+  },
+  "labels": {},
+  "difficultyLabels": [],
+  "travelStyleLabels": [],
+  "packingCategoryLabels": [],
+  "schema": {
+    "enableJsonLd": true,
+    "schemaType": "TravelAction",
+    "enableOpenGraph": true,
+    "enableTwitterCard": true
+  },
+  "defaultPresentationMode": "editorial"
+}

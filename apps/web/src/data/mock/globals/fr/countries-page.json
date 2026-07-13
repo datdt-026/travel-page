@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "height": "medium",
+    "overlayStyle": "medium",
+    "contentPosition": "bottom-left",
+    "textAlignment": "left",
+    "showBreadcrumb": true
+  },
+  "listing": {
+    "regions": [],
+    "layout": "grid",
+    "columns": "3",
+    "showSearch": true,
+    "searchPlaceholder": "Search countries...",
+    "showRegionFilter": true,
+    "showCityCount": true,
+    "showFlags": true
+  },
+  "featured": {
+    "enabled": true,
+    "title": "Top Destinations",
+    "displayMode": "auto",
+    "limit": 6,
+    "layout": "cards"
+  },
+  "regionsOverview": {
+    "items": [],
+    "enabled": true,
+    "title": "Explore by Region",
+    "displayStyle": "cards"
+  },
+  "emptyState": {
+    "title": "No Countries Found",
+    "message": "Check back soon as we add more destinations!"
+  },
+  "seo": {}
+}

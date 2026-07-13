@@ -1,0 +1,90 @@
+{
+  "hero": {
+    "styling": {},
+    "mediaType": "image",
+    "ctaLink": "/destinations",
+    "overlayStyle": "medium",
+    "contentPosition": "bottom-left",
+    "textAlignment": "left"
+  },
+  "philosophy": {
+    "styling": {},
+    "enabled": true,
+    "tagline": "Our Philosophy"
+  },
+  "destinations": {
+    "styling": {},
+    "enabled": true,
+    "ctaLink": "/destinations",
+    "limit": 6
+  },
+  "experiences": {
+    "styling": {},
+    "enabled": true,
+    "limit": 3
+  },
+  "testimonials": {
+    "items": [],
+    "styling": {},
+    "enabled": true,
+    "title": "Words from Our Travelers"
+  },
+  "cta": {
+    "styling": {},
+    "enabled": true,
+    "primaryCtaLink": "/contact",
+    "secondaryCtaLink": "/destinations"
+  },
+  "b2bStats": {
+    "items": [],
+    "styling": {},
+    "enabled": false
+  },
+  "b2bValueProposition": {
+    "highlights": [],
+    "styling": {},
+    "enabled": false,
+    "eyebrow": "Your Partner in Southeast Asia",
+    "title": "Trusted DMC for Discerning Travel Partners",
+    "ctaText": "Explore Partnership",
+    "ctaLink": "/partners",
+    "variant": "premium"
+  },
+  "b2bServicesOverview": {
+    "services": [],
+    "styling": {},
+    "enabled": false,
+    "variant": "cards",
+    "eyebrow": "Our Expertise",
+    "title": "Comprehensive DMC Solutions"
+  },
+  "b2bCredentials": {
+    "items": [],
+    "styling": {},
+    "enabled": false,
+    "variant": "floating",
+    "eyebrow": "Our Credentials",
+    "title": "Trusted Excellence"
+  },
+  "b2bPartnerShowcase": {
+    "partners": [],
+    "styling": {},
+    "enabled": false,
+    "variant": "marquee",
+    "eyebrow": "Trusted Worldwide",
+    "title": "Our Global Partners",
+    "ctaText": "Become a Partner",
+    "ctaLink": "/partners/inquiry"
+  },
+  "b2bCta": {
+    "stats": [],
+    "styling": {},
+    "enabled": false,
+    "variant": "cinematic",
+    "eyebrow": "Start Your Partnership",
+    "title": "Ready to Create Extraordinary Journeys Together?",
+    "primaryButtonText": "Begin the Conversation",
+    "primaryButtonLink": "/partners/inquiry"
+  },
+  "seo": {}
+}

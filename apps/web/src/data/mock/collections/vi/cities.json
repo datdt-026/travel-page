@@ -1,0 +1,2630 @@
+[
+  {
+    "id": 18,
+    "name": "Hội An",
+    "slug": "hoi-an",
+    "country": {
+      "id": 5,
+      "name": "Việt Nam",
+      "slug": "vietnam",
+      "continent": "asia",
+      "description": [
+        {
+          "type": "p",
+          "children": [
+            {
+              "text": "Hành trình qua cảnh quan tuyệt đẹp, lịch sử phong phú và nền ẩm thực đặc sắc."
+            }
+          ]
+        }
+      ],
+      "excerpt": "Hành trình qua cảnh quan tuyệt đẹp, lịch sử phong phú và nền ẩm thực đặc sắc.",
+      "featuredImage": {
+        "id": 1,
+        "alt": "Ảnh nổi bật Nhật Bản",
+        "caption": "Khung cảnh Việt Nam",
+        "credit": "Nhiếp ảnh du lịch",
+        "prefix": "media",
+        "updatedAt": "2026-06-26T03:24:46.814Z",
+        "createdAt": "2026-06-26T03:24:46.814Z",
+        "url": "/media/placeholder.png",
+        "filename": "placeholder.png",
+        "mimeType": "image/png",
+        "filesize": 91,
+        "width": 1,
+        "height": 1,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "gallery": [],
+      "currency": "VND",
+      "language": "Tiếng Việt",
+      "timezone": "ICT (UTC+7)",
+      "bestTimeToVisit": "Tháng 2 đến tháng 4 ở miền Bắc, tháng 12 đến tháng 4 ở miền Nam.",
+      "metaTitle": "Cẩm nang du lịch Việt Nam",
+      "metaDescription": "Hành trình qua cảnh quan tuyệt đẹp, lịch sử phong phú và nền ẩm thực đặc sắc.",
+      "metaKeywords": "du lịch Việt Nam, cẩm nang Việt Nam, điểm đến Việt Nam",
+      "status": "published",
+      "publishedAt": "2026-06-26T03:24:47.313Z",
+      "updatedAt": "2026-06-26T03:24:47.313Z",
+      "createdAt": "2026-06-26T03:24:47.313Z"
+    },
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Phố cổ quyến rũ với những con phố đèn lồng và văn hóa may đo tinh tế."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Phố cổ quyến rũ với những con phố đèn lồng và văn hóa may đo tinh tế.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Hội An",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "population": 120000,
+    "coordinates": {
+      "latitude": 15.8801,
+      "longitude": 108.338
+    },
+    "highlights": [],
+    "localTips": null,
+    "metaTitle": "Hội An | Cẩm nang thành phố",
+    "metaDescription": "Phố cổ quyến rũ với những con phố đèn lồng và văn hóa may đo tinh tế.",
+    "metaKeywords": "du lịch Hội An, điểm đến Hội An, cẩm nang Hội An",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.926Z",
+    "updatedAt": "2026-06-26T03:24:47.926Z",
+    "createdAt": "2026-06-26T03:24:47.926Z"
+  },
+  {
+    "id": 17,
+    "name": "Đà Nẵng",
+    "slug": "da-nang",
+    "country": {
+      "id": 5,
+      "name": "Việt Nam",
+      "slug": "vietnam",
+      "continent": "asia",
+      "description": [
+        {
+          "type": "p",
+          "children": [
+            {
+              "text": "Hành trình qua cảnh quan tuyệt đẹp, lịch sử phong phú và nền ẩm thực đặc sắc."
+            }
+          ]
+        }
+      ],
+      "excerpt": "Hành trình qua cảnh quan tuyệt đẹp, lịch sử phong phú và nền ẩm thực đặc sắc.",
+      "featuredImage": {
+        "id": 1,
+        "alt": "Ảnh nổi bật Nhật Bản",
+        "caption": "Khung cảnh Việt Nam",
+        "credit": "Nhiếp ảnh du lịch",
+        "prefix": "media",
+        "updatedAt": "2026-06-26T03:24:46.814Z",
+        "createdAt": "2026-06-26T03:24:46.814Z",
+        "url": "/media/placeholder.png",
+        "filename": "placeholder.png",
+        "mimeType": "image/png",
+        "filesize": 91,
+        "width": 1,
+        "height": 1,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "gallery": [],
+      "currency": "VND",
+      "language": "Tiếng Việt",
+      "timezone": "ICT (UTC+7)",
+      "bestTimeToVisit": "Tháng 2 đến tháng 4 ở miền Bắc, tháng 12 đến tháng 4 ở miền Nam.",
+      "metaTitle": "Cẩm nang du lịch Việt Nam",
+      "metaDescription": "Hành trình qua cảnh quan tuyệt đẹp, lịch sử phong phú và nền ẩm thực đặc sắc.",
+      "metaKeywords": "du lịch Việt Nam, cẩm nang Việt Nam, điểm đến Việt Nam",
+      "status": "published",
+      "publishedAt": "2026-06-26T03:24:47.313Z",
+      "updatedAt": "2026-06-26T03:24:47.313Z",
+      "createdAt": "2026-06-26T03:24:47.313Z"
+    },
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Thành phố biển với bãi biển đẹp và danh thắng Ngũ Hành Sơn nổi tiếng."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Thành phố biển với bãi biển đẹp và danh thắng Ngũ Hành Sơn nổi tiếng.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Đà Nẵng",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "population": 1134310,
+    "coordinates": {
+      "latitude": 16.0544,
+      "longitude": 108.2022
+    },
+    "highlights": [],
+    "localTips": null,
+    "metaTitle": "Đà Nẵng | Cẩm nang thành phố",
+    "metaDescription": "Thành phố biển với bãi biển đẹp và danh thắng Ngũ Hành Sơn nổi tiếng.",
+    "metaKeywords": "du lịch Đà Nẵng, điểm đến Đà Nẵng, cẩm nang Đà Nẵng",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.915Z",
+    "updatedAt": "2026-06-26T03:24:47.915Z",
+    "createdAt": "2026-06-26T03:24:47.915Z"
+  },
+  {
+    "id": 16,
+    "name": "Thành phố Hồ Chí Minh",
+    "slug": "ho-chi-minh-city",
+    "country": {
+      "id": 5,
+      "name": "Việt Nam",
+      "slug": "vietnam",
+      "continent": "asia",
+      "description": [
+        {
+          "type": "p",
+          "children": [
+            {
+              "text": "Hành trình qua cảnh quan tuyệt đẹp, lịch sử phong phú và nền ẩm thực đặc sắc."
+            }
+          ]
+        }
+      ],
+      "excerpt": "Hành trình qua cảnh quan tuyệt đẹp, lịch sử phong phú và nền ẩm thực đặc sắc.",
+      "featuredImage": {
+        "id": 1,
+        "alt": "Ảnh nổi bật Nhật Bản",
+        "caption": "Khung cảnh Việt Nam",
+        "credit": "Nhiếp ảnh du lịch",
+        "prefix": "media",
+        "updatedAt": "2026-06-26T03:24:46.814Z",
+        "createdAt": "2026-06-26T03:24:46.814Z",
+        "url": "/media/placeholder.png",
+        "filename": "placeholder.png",
+        "mimeType": "image/png",
+        "filesize": 91,
+        "width": 1,
+        "height": 1,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "gallery": [],
+      "currency": "VND",
+      "language": "Tiếng Việt",
+      "timezone": "ICT (UTC+7)",
+      "bestTimeToVisit": "Tháng 2 đến tháng 4 ở miền Bắc, tháng 12 đến tháng 4 ở miền Nam.",
+      "metaTitle": "Cẩm nang du lịch Việt Nam",
+      "metaDescription": "Hành trình qua cảnh quan tuyệt đẹp, lịch sử phong phú và nền ẩm thực đặc sắc.",
+      "metaKeywords": "du lịch Việt Nam, cẩm nang Việt Nam, điểm đến Việt Nam",
+      "status": "published",
+      "publishedAt": "2026-06-26T03:24:47.313Z",
+      "updatedAt": "2026-06-26T03:24:47.313Z",
+      "createdAt": "2026-06-26T03:24:47.313Z"
+    },
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Thành phố lớn nhất Việt Nam, một đô thị năng động giao hòa giữa lịch sử và hiện đại."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Thành phố lớn nhất Việt Nam, một đô thị năng động giao hòa giữa lịch sử và hiện đại.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Thành phố Hồ Chí Minh",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "population": 8993082,
+    "coordinates": {
+      "latitude": 10.8231,
+      "longitude": 106.6297
+    },
+    "highlights": [],
+    "localTips": null,
+    "metaTitle": "Thành phố Hồ Chí Minh | Cẩm nang thành phố",
+    "metaDescription": "Thành phố lớn nhất Việt Nam, một đô thị năng động giao hòa giữa lịch sử và hiện đại.",
+    "metaKeywords": "du lịch Thành phố Hồ Chí Minh, điểm đến Thành phố Hồ Chí Minh, cẩm nang Thành phố Hồ Chí Minh",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.903Z",
+    "updatedAt": "2026-06-26T03:24:47.903Z",
+    "createdAt": "2026-06-26T03:24:47.903Z"
+  },
+  {
+    "id": 15,
+    "name": "Hà Nội",
+    "slug": "hanoi",
+    "country": {
+      "id": 5,
+      "name": "Việt Nam",
+      "slug": "vietnam",
+      "continent": "asia",
+      "description": [
+        {
+          "type": "p",
+          "children": [
+            {
+              "text": "Hành trình qua cảnh quan tuyệt đẹp, lịch sử phong phú và nền ẩm thực đặc sắc."
+            }
+          ]
+        }
+      ],
+      "excerpt": "Hành trình qua cảnh quan tuyệt đẹp, lịch sử phong phú và nền ẩm thực đặc sắc.",
+      "featuredImage": {
+        "id": 1,
+        "alt": "Ảnh nổi bật Nhật Bản",
+        "caption": "Khung cảnh Việt Nam",
+        "credit": "Nhiếp ảnh du lịch",
+        "prefix": "media",
+        "updatedAt": "2026-06-26T03:24:46.814Z",
+        "createdAt": "2026-06-26T03:24:46.814Z",
+        "url": "/media/placeholder.png",
+        "filename": "placeholder.png",
+        "mimeType": "image/png",
+        "filesize": 91,
+        "width": 1,
+        "height": 1,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "gallery": [],
+      "currency": "VND",
+      "language": "Tiếng Việt",
+      "timezone": "ICT (UTC+7)",
+      "bestTimeToVisit": "Tháng 2 đến tháng 4 ở miền Bắc, tháng 12 đến tháng 4 ở miền Nam.",
+      "metaTitle": "Cẩm nang du lịch Việt Nam",
+      "metaDescription": "Hành trình qua cảnh quan tuyệt đẹp, lịch sử phong phú và nền ẩm thực đặc sắc.",
+      "metaKeywords": "du lịch Việt Nam, cẩm nang Việt Nam, điểm đến Việt Nam",
+      "status": "published",
+      "publishedAt": "2026-06-26T03:24:47.313Z",
+      "updatedAt": "2026-06-26T03:24:47.313Z",
+      "createdAt": "2026-06-26T03:24:47.313Z"
+    },
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Thủ đô duyên dáng của Việt Nam với kiến trúc Pháp cổ và những ngôi đền xưa."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Thủ đô duyên dáng của Việt Nam với kiến trúc Pháp cổ và những ngôi đền xưa.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Hà Nội",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "population": 8053663,
+    "coordinates": {
+      "latitude": 21.0285,
+      "longitude": 105.8542
+    },
+    "highlights": [],
+    "localTips": null,
+    "metaTitle": "Hà Nội | Cẩm nang thành phố",
+    "metaDescription": "Thủ đô duyên dáng của Việt Nam với kiến trúc Pháp cổ và những ngôi đền xưa.",
+    "metaKeywords": "du lịch Hà Nội, điểm đến Hà Nội, cẩm nang Hà Nội",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.889Z",
+    "updatedAt": "2026-06-26T03:24:47.889Z",
+    "createdAt": "2026-06-26T03:24:47.889Z"
+  },
+  {
+    "id": 14,
+    "name": "Venice",
+    "slug": "venice",
+    "country": {
+      "id": 4,
+      "name": "Ý",
+      "slug": "italy",
+      "continent": "europe",
+      "description": [
+        {
+          "type": "p",
+          "children": [
+            {
+              "text": "Đắm mình trong nghệ thuật, lịch sử và tinh hoa ẩm thực Địa Trung Hải."
+            }
+          ]
+        }
+      ],
+      "excerpt": "Đắm mình trong nghệ thuật, lịch sử và tinh hoa ẩm thực Địa Trung Hải.",
+      "featuredImage": {
+        "id": 1,
+        "alt": "Ảnh nổi bật Nhật Bản",
+        "caption": "Khung cảnh Ý",
+        "credit": "Nhiếp ảnh du lịch",
+        "prefix": "media",
+        "updatedAt": "2026-06-26T03:24:46.814Z",
+        "createdAt": "2026-06-26T03:24:46.814Z",
+        "url": "/media/placeholder.png",
+        "filename": "placeholder.png",
+        "mimeType": "image/png",
+        "filesize": 91,
+        "width": 1,
+        "height": 1,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "gallery": [],
+      "currency": "EUR",
+      "language": "Tiếng Ý",
+      "timezone": "CET (UTC+1)",
+      "bestTimeToVisit": "Tháng 4 đến tháng 6 và tháng 9 đến tháng 10.",
+      "metaTitle": "Cẩm nang du lịch Ý",
+      "metaDescription": "Đắm mình trong nghệ thuật, lịch sử và tinh hoa ẩm thực Địa Trung Hải.",
+      "metaKeywords": "du lịch Ý, cẩm nang Ý, điểm đến Ý",
+      "status": "published",
+      "publishedAt": "2026-06-26T03:24:47.299Z",
+      "updatedAt": "2026-06-26T03:24:47.299Z",
+      "createdAt": "2026-06-26T03:24:47.299Z"
+    },
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Thành phố kênh đào độc đáo với thuyền gondola và kiến trúc Venice lộng lẫy."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Thành phố kênh đào độc đáo với thuyền gondola và kiến trúc Venice lộng lẫy.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Venice",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "population": 261000,
+    "coordinates": {
+      "latitude": 45.4408,
+      "longitude": 12.3155
+    },
+    "highlights": [],
+    "localTips": null,
+    "metaTitle": "Venice | Cẩm nang thành phố",
+    "metaDescription": "Thành phố kênh đào độc đáo với thuyền gondola và kiến trúc Venice lộng lẫy.",
+    "metaKeywords": "du lịch Venice, điểm đến Venice, cẩm nang Venice",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.876Z",
+    "updatedAt": "2026-06-26T03:24:47.876Z",
+    "createdAt": "2026-06-26T03:24:47.876Z"
+  },
+  {
+    "id": 13,
+    "name": "Florence",
+    "slug": "florence",
+    "country": {
+      "id": 4,
+      "name": "Ý",
+      "slug": "italy",
+      "continent": "europe",
+      "description": [
+        {
+          "type": "p",
+          "children": [
+            {
+              "text": "Đắm mình trong nghệ thuật, lịch sử và tinh hoa ẩm thực Địa Trung Hải."
+            }
+          ]
+        }
+      ],
+      "excerpt": "Đắm mình trong nghệ thuật, lịch sử và tinh hoa ẩm thực Địa Trung Hải.",
+      "featuredImage": {
+        "id": 1,
+        "alt": "Ảnh nổi bật Nhật Bản",
+        "caption": "Khung cảnh Ý",
+        "credit": "Nhiếp ảnh du lịch",
+        "prefix": "media",
+        "updatedAt": "2026-06-26T03:24:46.814Z",
+        "createdAt": "2026-06-26T03:24:46.814Z",
+        "url": "/media/placeholder.png",
+        "filename": "placeholder.png",
+        "mimeType": "image/png",
+        "filesize": 91,
+        "width": 1,
+        "height": 1,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "gallery": [],
+      "currency": "EUR",
+      "language": "Tiếng Ý",
+      "timezone": "CET (UTC+1)",
+      "bestTimeToVisit": "Tháng 4 đến tháng 6 và tháng 9 đến tháng 10.",
+      "metaTitle": "Cẩm nang du lịch Ý",
+      "metaDescription": "Đắm mình trong nghệ thuật, lịch sử và tinh hoa ẩm thực Địa Trung Hải.",
+      "metaKeywords": "du lịch Ý, cẩm nang Ý, điểm đến Ý",
+      "status": "published",
+      "publishedAt": "2026-06-26T03:24:47.299Z",
+      "updatedAt": "2026-06-26T03:24:47.299Z",
+      "createdAt": "2026-06-26T03:24:47.299Z"
+    },
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Cái nôi của thời Phục Hưng với nghệ thuật và kiến trúc đẳng cấp thế giới."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Cái nôi của thời Phục Hưng với nghệ thuật và kiến trúc đẳng cấp thế giới.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Florence",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "population": 382000,
+    "coordinates": {
+      "latitude": 43.7696,
+      "longitude": 11.2558
+    },
+    "highlights": [],
+    "localTips": null,
+    "metaTitle": "Florence | Cẩm nang thành phố",
+    "metaDescription": "Cái nôi của thời Phục Hưng với nghệ thuật và kiến trúc đẳng cấp thế giới.",
+    "metaKeywords": "du lịch Florence, điểm đến Florence, cẩm nang Florence",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.862Z",
+    "updatedAt": "2026-06-26T03:24:47.862Z",
+    "createdAt": "2026-06-26T03:24:47.862Z"
+  },
+  {
+    "id": 12,
+    "name": "Rome",
+    "slug": "rome",
+    "country": {
+      "id": 4,
+      "name": "Ý",
+      "slug": "italy",
+      "continent": "europe",
+      "description": [
+        {
+          "type": "p",
+          "children": [
+            {
+              "text": "Đắm mình trong nghệ thuật, lịch sử và tinh hoa ẩm thực Địa Trung Hải."
+            }
+          ]
+        }
+      ],
+      "excerpt": "Đắm mình trong nghệ thuật, lịch sử và tinh hoa ẩm thực Địa Trung Hải.",
+      "featuredImage": {
+        "id": 1,
+        "alt": "Ảnh nổi bật Nhật Bản",
+        "caption": "Khung cảnh Ý",
+        "credit": "Nhiếp ảnh du lịch",
+        "prefix": "media",
+        "updatedAt": "2026-06-26T03:24:46.814Z",
+        "createdAt": "2026-06-26T03:24:46.814Z",
+        "url": "/media/placeholder.png",
+        "filename": "placeholder.png",
+        "mimeType": "image/png",
+        "filesize": 91,
+        "width": 1,
+        "height": 1,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "gallery": [],
+      "currency": "EUR",
+      "language": "Tiếng Ý",
+      "timezone": "CET (UTC+1)",
+      "bestTimeToVisit": "Tháng 4 đến tháng 6 và tháng 9 đến tháng 10.",
+      "metaTitle": "Cẩm nang du lịch Ý",
+      "metaDescription": "Đắm mình trong nghệ thuật, lịch sử và tinh hoa ẩm thực Địa Trung Hải.",
+      "metaKeywords": "du lịch Ý, cẩm nang Ý, điểm đến Ý",
+      "status": "published",
+      "publishedAt": "2026-06-26T03:24:47.299Z",
+      "updatedAt": "2026-06-26T03:24:47.299Z",
+      "createdAt": "2026-06-26T03:24:47.299Z"
+    },
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Thành phố Vĩnh Hằng với 3.000 năm nghệ thuật và kiến trúc có ảnh hưởng toàn cầu."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Thành phố Vĩnh Hằng với 3.000 năm nghệ thuật và kiến trúc có ảnh hưởng toàn cầu.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Rome",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "population": 2873000,
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    },
+    "highlights": [],
+    "localTips": null,
+    "metaTitle": "Rome | Cẩm nang thành phố",
+    "metaDescription": "Thành phố Vĩnh Hằng với 3.000 năm nghệ thuật và kiến trúc có ảnh hưởng toàn cầu.",
+    "metaKeywords": "du lịch Rome, điểm đến Rome, cẩm nang Rome",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.849Z",
+    "updatedAt": "2026-06-26T03:24:47.848Z",
+    "createdAt": "2026-06-26T03:24:47.848Z"
+  },
+  {
+    "id": 11,
+    "name": "Phuket",
+    "slug": "phuket",
+    "country": {
+      "id": 3,
+      "name": "Thái Lan",
+      "slug": "thailand",
+      "continent": "asia",
+      "description": [
+        {
+          "type": "p",
+          "children": [
+            {
+              "text": "Khám phá bãi biển nhiệt đới, đền cổ và văn hóa ẩm thực đường phố sôi động."
+            }
+          ]
+        }
+      ],
+      "excerpt": "Khám phá bãi biển nhiệt đới, đền cổ và văn hóa ẩm thực đường phố sôi động.",
+      "featuredImage": {
+        "id": 1,
+        "alt": "Ảnh nổi bật Nhật Bản",
+        "caption": "Khung cảnh Thái Lan",
+        "credit": "Nhiếp ảnh du lịch",
+        "prefix": "media",
+        "updatedAt": "2026-06-26T03:24:46.814Z",
+        "createdAt": "2026-06-26T03:24:46.814Z",
+        "url": "/media/placeholder.png",
+        "filename": "placeholder.png",
+        "mimeType": "image/png",
+        "filesize": 91,
+        "width": 1,
+        "height": 1,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "gallery": [],
+      "currency": "THB",
+      "language": "Tiếng Thái",
+      "timezone": "ICT (UTC+7)",
+      "bestTimeToVisit": "Tháng 11 đến tháng 2.",
+      "metaTitle": "Cẩm nang du lịch Thái Lan",
+      "metaDescription": "Khám phá bãi biển nhiệt đới, đền cổ và văn hóa ẩm thực đường phố sôi động.",
+      "metaKeywords": "du lịch Thái Lan, cẩm nang Thái Lan, điểm đến Thái Lan",
+      "status": "published",
+      "publishedAt": "2026-06-26T03:24:47.282Z",
+      "updatedAt": "2026-06-26T03:24:47.282Z",
+      "createdAt": "2026-06-26T03:24:47.282Z"
+    },
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Thiên đường nhiệt đới với bãi biển tuyệt đẹp và đời sống về đêm sôi động."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Thiên đường nhiệt đới với bãi biển tuyệt đẹp và đời sống về đêm sôi động.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Phuket",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "population": 416582,
+    "coordinates": {
+      "latitude": 7.8804,
+      "longitude": 98.3923
+    },
+    "highlights": [],
+    "localTips": null,
+    "metaTitle": "Phuket | Cẩm nang thành phố",
+    "metaDescription": "Thiên đường nhiệt đới với bãi biển tuyệt đẹp và đời sống về đêm sôi động.",
+    "metaKeywords": "du lịch Phuket, điểm đến Phuket, cẩm nang Phuket",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.836Z",
+    "updatedAt": "2026-06-26T03:24:47.835Z",
+    "createdAt": "2026-06-26T03:24:47.835Z"
+  },
+  {
+    "id": 10,
+    "name": "Chiang Mai",
+    "slug": "chiang-mai",
+    "country": {
+      "id": 3,
+      "name": "Thái Lan",
+      "slug": "thailand",
+      "continent": "asia",
+      "description": [
+        {
+          "type": "p",
+          "children": [
+            {
+              "text": "Khám phá bãi biển nhiệt đới, đền cổ và văn hóa ẩm thực đường phố sôi động."
+            }
+          ]
+        }
+      ],
+      "excerpt": "Khám phá bãi biển nhiệt đới, đền cổ và văn hóa ẩm thực đường phố sôi động.",
+      "featuredImage": {
+        "id": 1,
+        "alt": "Ảnh nổi bật Nhật Bản",
+        "caption": "Khung cảnh Thái Lan",
+        "credit": "Nhiếp ảnh du lịch",
+        "prefix": "media",
+        "updatedAt": "2026-06-26T03:24:46.814Z",
+        "createdAt": "2026-06-26T03:24:46.814Z",
+        "url": "/media/placeholder.png",
+        "filename": "placeholder.png",
+        "mimeType": "image/png",
+        "filesize": 91,
+        "width": 1,
+        "height": 1,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "gallery": [],
+      "currency": "THB",
+      "language": "Tiếng Thái",
+      "timezone": "ICT (UTC+7)",
+      "bestTimeToVisit": "Tháng 11 đến tháng 2.",
+      "metaTitle": "Cẩm nang du lịch Thái Lan",
+      "metaDescription": "Khám phá bãi biển nhiệt đới, đền cổ và văn hóa ẩm thực đường phố sôi động.",
+      "metaKeywords": "du lịch Thái Lan, cẩm nang Thái Lan, điểm đến Thái Lan",
+      "status": "published",
+      "publishedAt": "2026-06-26T03:24:47.282Z",
+      "updatedAt": "2026-06-26T03:24:47.282Z",
+      "createdAt": "2026-06-26T03:24:47.282Z"
+    },
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Trung tâm văn hóa miền Bắc Thái Lan, bao quanh bởi núi mờ sương và đền chùa."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Trung tâm văn hóa miền Bắc Thái Lan, bao quanh bởi núi mờ sương và đền chùa.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Chiang Mai",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "population": 131000,
+    "coordinates": {
+      "latitude": 18.7883,
+      "longitude": 98.9853
+    },
+    "highlights": [],
+    "localTips": null,
+    "metaTitle": "Chiang Mai | Cẩm nang thành phố",
+    "metaDescription": "Trung tâm văn hóa miền Bắc Thái Lan, bao quanh bởi núi mờ sương và đền chùa.",
+    "metaKeywords": "du lịch Chiang Mai, điểm đến Chiang Mai, cẩm nang Chiang Mai",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.818Z",
+    "updatedAt": "2026-06-26T03:24:47.818Z",
+    "createdAt": "2026-06-26T03:24:47.818Z"
+  },
+  {
+    "id": 9,
+    "name": "Bangkok",
+    "slug": "bangkok",
+    "country": {
+      "id": 3,
+      "name": "Thái Lan",
+      "slug": "thailand",
+      "continent": "asia",
+      "description": [
+        {
+          "type": "p",
+          "children": [
+            {
+              "text": "Khám phá bãi biển nhiệt đới, đền cổ và văn hóa ẩm thực đường phố sôi động."
+            }
+          ]
+        }
+      ],
+      "excerpt": "Khám phá bãi biển nhiệt đới, đền cổ và văn hóa ẩm thực đường phố sôi động.",
+      "featuredImage": {
+        "id": 1,
+        "alt": "Ảnh nổi bật Nhật Bản",
+        "caption": "Khung cảnh Thái Lan",
+        "credit": "Nhiếp ảnh du lịch",
+        "prefix": "media",
+        "updatedAt": "2026-06-26T03:24:46.814Z",
+        "createdAt": "2026-06-26T03:24:46.814Z",
+        "url": "/media/placeholder.png",
+        "filename": "placeholder.png",
+        "mimeType": "image/png",
+        "filesize": 91,
+        "width": 1,
+        "height": 1,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "gallery": [],
+      "currency": "THB",
+      "language": "Tiếng Thái",
+      "timezone": "ICT (UTC+7)",
+      "bestTimeToVisit": "Tháng 11 đến tháng 2.",
+      "metaTitle": "Cẩm nang du lịch Thái Lan",
+      "metaDescription": "Khám phá bãi biển nhiệt đới, đền cổ và văn hóa ẩm thực đường phố sôi động.",
+      "metaKeywords": "du lịch Thái Lan, cẩm nang Thái Lan, điểm đến Thái Lan",
+      "status": "published",
+      "publishedAt": "2026-06-26T03:24:47.282Z",
+      "updatedAt": "2026-06-26T03:24:47.282Z",
+      "createdAt": "2026-06-26T03:24:47.282Z"
+    },
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Đô thị nhộn nhịp kết hợp đền cổ với những tòa nhà chọc trời hiện đại."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Đô thị nhộn nhịp kết hợp đền cổ với những tòa nhà chọc trời hiện đại.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Bangkok",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "population": 10539000,
+    "coordinates": {
+      "latitude": 13.7563,
+      "longitude": 100.5018
+    },
+    "highlights": [],
+    "localTips": null,
+    "metaTitle": "Bangkok | Cẩm nang thành phố",
+    "metaDescription": "Đô thị nhộn nhịp kết hợp đền cổ với những tòa nhà chọc trời hiện đại.",
+    "metaKeywords": "du lịch Bangkok, điểm đến Bangkok, cẩm nang Bangkok",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.800Z",
+    "updatedAt": "2026-06-26T03:24:47.799Z",
+    "createdAt": "2026-06-26T03:24:47.799Z"
+  },
+  {
+    "id": 8,
+    "name": "Lyon",
+    "slug": "lyon",
+    "country": {
+      "id": 2,
+      "name": "Pháp",
+      "slug": "france",
+      "continent": "europe",
+      "description": [
+        {
+          "type": "p",
+          "children": [
+            {
+              "text": "Khám phá sự lãng mạn, nghệ thuật và tinh hoa ẩm thực ở trái tim châu Âu."
+            }
+          ]
+        }
+      ],
+      "excerpt": "Khám phá sự lãng mạn, nghệ thuật và tinh hoa ẩm thực ở trái tim châu Âu.",
+      "featuredImage": {
+        "id": 1,
+        "alt": "Ảnh nổi bật Nhật Bản",
+        "caption": "Khung cảnh Pháp",
+        "credit": "Nhiếp ảnh du lịch",
+        "prefix": "media",
+        "updatedAt": "2026-06-26T03:24:46.814Z",
+        "createdAt": "2026-06-26T03:24:46.814Z",
+        "url": "/media/placeholder.png",
+        "filename": "placeholder.png",
+        "mimeType": "image/png",
+        "filesize": 91,
+        "width": 1,
+        "height": 1,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "gallery": [],
+      "currency": "EUR",
+      "language": "Tiếng Pháp",
+      "timezone": "CET (UTC+1)",
+      "bestTimeToVisit": "Tháng 4 đến tháng 6 và tháng 9 đến tháng 10.",
+      "metaTitle": "Cẩm nang du lịch Pháp",
+      "metaDescription": "Khám phá sự lãng mạn, nghệ thuật và tinh hoa ẩm thực ở trái tim châu Âu.",
+      "metaKeywords": "du lịch Pháp, cẩm nang Pháp, điểm đến Pháp",
+      "status": "published",
+      "publishedAt": "2026-06-26T03:24:47.263Z",
+      "updatedAt": "2026-06-26T03:24:47.262Z",
+      "createdAt": "2026-06-26T03:24:47.262Z"
+    },
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Thủ phủ ẩm thực của Pháp với di sản La Mã phong phú."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Thủ phủ ẩm thực của Pháp với di sản La Mã phong phú.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Lyon",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "population": 516000,
+    "coordinates": {
+      "latitude": 45.764,
+      "longitude": 4.8357
+    },
+    "highlights": [],
+    "localTips": null,
+    "metaTitle": "Lyon | Cẩm nang thành phố",
+    "metaDescription": "Thủ phủ ẩm thực của Pháp với di sản La Mã phong phú.",
+    "metaKeywords": "du lịch Lyon, điểm đến Lyon, cẩm nang Lyon",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.752Z",
+    "updatedAt": "2026-06-26T03:24:47.752Z",
+    "createdAt": "2026-06-26T03:24:47.752Z"
+  },
+  {
+    "id": 7,
+    "name": "Nice",
+    "slug": "nice",
+    "country": {
+      "id": 2,
+      "name": "Pháp",
+      "slug": "france",
+      "continent": "europe",
+      "description": [
+        {
+          "type": "p",
+          "children": [
+            {
+              "text": "Khám phá sự lãng mạn, nghệ thuật và tinh hoa ẩm thực ở trái tim châu Âu."
+            }
+          ]
+        }
+      ],
+      "excerpt": "Khám phá sự lãng mạn, nghệ thuật và tinh hoa ẩm thực ở trái tim châu Âu.",
+      "featuredImage": {
+        "id": 1,
+        "alt": "Ảnh nổi bật Nhật Bản",
+        "caption": "Khung cảnh Pháp",
+        "credit": "Nhiếp ảnh du lịch",
+        "prefix": "media",
+        "updatedAt": "2026-06-26T03:24:46.814Z",
+        "createdAt": "2026-06-26T03:24:46.814Z",
+        "url": "/media/placeholder.png",
+        "filename": "placeholder.png",
+        "mimeType": "image/png",
+        "filesize": 91,
+        "width": 1,
+        "height": 1,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "gallery": [],
+      "currency": "EUR",
+      "language": "Tiếng Pháp",
+      "timezone": "CET (UTC+1)",
+      "bestTimeToVisit": "Tháng 4 đến tháng 6 và tháng 9 đến tháng 10.",
+      "metaTitle": "Cẩm nang du lịch Pháp",
+      "metaDescription": "Khám phá sự lãng mạn, nghệ thuật và tinh hoa ẩm thực ở trái tim châu Âu.",
+      "metaKeywords": "du lịch Pháp, cẩm nang Pháp, điểm đến Pháp",
+      "status": "published",
+      "publishedAt": "2026-06-26T03:24:47.263Z",
+      "updatedAt": "2026-06-26T03:24:47.262Z",
+      "createdAt": "2026-06-26T03:24:47.262Z"
+    },
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Điểm đến hào nhoáng trên Riviera Pháp với tầm nhìn Địa Trung Hải tuyệt đẹp."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Điểm đến hào nhoáng trên Riviera Pháp với tầm nhìn Địa Trung Hải tuyệt đẹp.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Nice",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "population": 343000,
+    "coordinates": {
+      "latitude": 43.7102,
+      "longitude": 7.262
+    },
+    "highlights": [],
+    "localTips": null,
+    "metaTitle": "Nice | Cẩm nang thành phố",
+    "metaDescription": "Điểm đến hào nhoáng trên Riviera Pháp với tầm nhìn Địa Trung Hải tuyệt đẹp.",
+    "metaKeywords": "du lịch Nice, điểm đến Nice, cẩm nang Nice",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.664Z",
+    "updatedAt": "2026-06-26T03:24:47.664Z",
+    "createdAt": "2026-06-26T03:24:47.664Z"
+  },
+  {
+    "id": 6,
+    "name": "Paris",
+    "slug": "paris",
+    "country": {
+      "id": 2,
+      "name": "Pháp",
+      "slug": "france",
+      "continent": "europe",
+      "description": [
+        {
+          "type": "p",
+          "children": [
+            {
+              "text": "Khám phá sự lãng mạn, nghệ thuật và tinh hoa ẩm thực ở trái tim châu Âu."
+            }
+          ]
+        }
+      ],
+      "excerpt": "Khám phá sự lãng mạn, nghệ thuật và tinh hoa ẩm thực ở trái tim châu Âu.",
+      "featuredImage": {
+        "id": 1,
+        "alt": "Ảnh nổi bật Nhật Bản",
+        "caption": "Khung cảnh Pháp",
+        "credit": "Nhiếp ảnh du lịch",
+        "prefix": "media",
+        "updatedAt": "2026-06-26T03:24:46.814Z",
+        "createdAt": "2026-06-26T03:24:46.814Z",
+        "url": "/media/placeholder.png",
+        "filename": "placeholder.png",
+        "mimeType": "image/png",
+        "filesize": 91,
+        "width": 1,
+        "height": 1,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "gallery": [],
+      "currency": "EUR",
+      "language": "Tiếng Pháp",
+      "timezone": "CET (UTC+1)",
+      "bestTimeToVisit": "Tháng 4 đến tháng 6 và tháng 9 đến tháng 10.",
+      "metaTitle": "Cẩm nang du lịch Pháp",
+      "metaDescription": "Khám phá sự lãng mạn, nghệ thuật và tinh hoa ẩm thực ở trái tim châu Âu.",
+      "metaKeywords": "du lịch Pháp, cẩm nang Pháp, điểm đến Pháp",
+      "status": "published",
+      "publishedAt": "2026-06-26T03:24:47.263Z",
+      "updatedAt": "2026-06-26T03:24:47.262Z",
+      "createdAt": "2026-06-26T03:24:47.262Z"
+    },
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Kinh đô Ánh sáng, nơi hội tụ lãng mạn, nghệ thuật và các biểu tượng nổi tiếng."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Kinh đô Ánh sáng, nơi hội tụ lãng mạn, nghệ thuật và các biểu tượng nổi tiếng.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Paris",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "population": 2161000,
+    "coordinates": {
+      "latitude": 48.8566,
+      "longitude": 2.3522
+    },
+    "highlights": [],
+    "localTips": null,
+    "metaTitle": "Paris | Cẩm nang thành phố",
+    "metaDescription": "Kinh đô Ánh sáng, nơi hội tụ lãng mạn, nghệ thuật và các biểu tượng nổi tiếng.",
+    "metaKeywords": "du lịch Paris, điểm đến Paris, cẩm nang Paris",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.618Z",
+    "updatedAt": "2026-06-26T03:24:47.617Z",
+    "createdAt": "2026-06-26T03:24:47.617Z"
+  },
+  {
+    "id": 5,
+    "name": "Hiroshima",
+    "slug": "hiroshima",
+    "country": {
+      "id": 1,
+      "name": "Nhật Bản",
+      "slug": "japan",
+      "continent": "asia",
+      "description": [
+        {
+          "type": "p",
+          "children": [
+            {
+              "text": "Trải nghiệm sự hòa quyện giữa truyền thống cổ xưa và đổi mới hiện đại tại xứ sở mặt trời mọc."
+            }
+          ]
+        }
+      ],
+      "excerpt": "Trải nghiệm sự hòa quyện giữa truyền thống cổ xưa và đổi mới hiện đại tại xứ sở mặt trời mọc.",
+      "featuredImage": {
+        "id": 1,
+        "alt": "Ảnh nổi bật Nhật Bản",
+        "caption": "Khung cảnh Nhật Bản",
+        "credit": "Nhiếp ảnh du lịch",
+        "prefix": "media",
+        "updatedAt": "2026-06-26T03:24:46.814Z",
+        "createdAt": "2026-06-26T03:24:46.814Z",
+        "url": "/media/placeholder.png",
+        "filename": "placeholder.png",
+        "mimeType": "image/png",
+        "filesize": 91,
+        "width": 1,
+        "height": 1,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "gallery": [],
+      "currency": "JPY",
+      "language": "Tiếng Nhật",
+      "timezone": "JST (UTC+9)",
+      "bestTimeToVisit": "Tháng 3 đến tháng 5 và tháng 10 đến tháng 11.",
+      "metaTitle": "Cẩm nang du lịch Nhật Bản",
+      "metaDescription": "Trải nghiệm sự hòa quyện giữa truyền thống cổ xưa và đổi mới hiện đại tại xứ sở mặt trời mọc.",
+      "metaKeywords": "du lịch Nhật Bản, cẩm nang Nhật Bản, điểm đến Nhật Bản",
+      "status": "published",
+      "publishedAt": "2026-06-26T03:24:47.240Z",
+      "updatedAt": "2026-06-26T03:24:47.241Z",
+      "createdAt": "2026-06-26T03:24:47.241Z"
+    },
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Thành phố của hòa bình và nghị lực với ý nghĩa lịch sử sâu sắc."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Thành phố của hòa bình và nghị lực với ý nghĩa lịch sử sâu sắc.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Hiroshima",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "population": 1200000,
+    "coordinates": {
+      "latitude": 34.3853,
+      "longitude": 132.4553
+    },
+    "highlights": [],
+    "localTips": null,
+    "metaTitle": "Hiroshima | Cẩm nang thành phố",
+    "metaDescription": "Thành phố của hòa bình và nghị lực với ý nghĩa lịch sử sâu sắc.",
+    "metaKeywords": "du lịch Hiroshima, điểm đến Hiroshima, cẩm nang Hiroshima",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.468Z",
+    "updatedAt": "2026-06-26T03:24:47.468Z",
+    "createdAt": "2026-06-26T03:24:47.468Z"
+  },
+  {
+    "id": 4,
+    "name": "Nara",
+    "slug": "nara",
+    "country": {
+      "id": 1,
+      "name": "Nhật Bản",
+      "slug": "japan",
+      "continent": "asia",
+      "description": [
+        {
+          "type": "p",
+          "children": [
+            {
+              "text": "Trải nghiệm sự hòa quyện giữa truyền thống cổ xưa và đổi mới hiện đại tại xứ sở mặt trời mọc."
+            }
+          ]
+        }
+      ],
+      "excerpt": "Trải nghiệm sự hòa quyện giữa truyền thống cổ xưa và đổi mới hiện đại tại xứ sở mặt trời mọc.",
+      "featuredImage": {
+        "id": 1,
+        "alt": "Ảnh nổi bật Nhật Bản",
+        "caption": "Khung cảnh Nhật Bản",
+        "credit": "Nhiếp ảnh du lịch",
+        "prefix": "media",
+        "updatedAt": "2026-06-26T03:24:46.814Z",
+        "createdAt": "2026-06-26T03:24:46.814Z",
+        "url": "/media/placeholder.png",
+        "filename": "placeholder.png",
+        "mimeType": "image/png",
+        "filesize": 91,
+        "width": 1,
+        "height": 1,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "gallery": [],
+      "currency": "JPY",
+      "language": "Tiếng Nhật",
+      "timezone": "JST (UTC+9)",
+      "bestTimeToVisit": "Tháng 3 đến tháng 5 và tháng 10 đến tháng 11.",
+      "metaTitle": "Cẩm nang du lịch Nhật Bản",
+      "metaDescription": "Trải nghiệm sự hòa quyện giữa truyền thống cổ xưa và đổi mới hiện đại tại xứ sở mặt trời mọc.",
+      "metaKeywords": "du lịch Nhật Bản, cẩm nang Nhật Bản, điểm đến Nhật Bản",
+      "status": "published",
+      "publishedAt": "2026-06-26T03:24:47.240Z",
+      "updatedAt": "2026-06-26T03:24:47.241Z",
+      "createdAt": "2026-06-26T03:24:47.241Z"
+    },
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Cố đô nổi tiếng với đàn hươu thân thiện và những ngôi chùa tráng lệ."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Cố đô nổi tiếng với đàn hươu thân thiện và những ngôi chùa tráng lệ.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Nara",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "population": 360000,
+    "coordinates": {
+      "latitude": 34.6851,
+      "longitude": 135.8048
+    },
+    "highlights": [],
+    "localTips": null,
+    "metaTitle": "Nara | Cẩm nang thành phố",
+    "metaDescription": "Cố đô nổi tiếng với đàn hươu thân thiện và những ngôi chùa tráng lệ.",
+    "metaKeywords": "du lịch Nara, điểm đến Nara, cẩm nang Nara",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.433Z",
+    "updatedAt": "2026-06-26T03:24:47.433Z",
+    "createdAt": "2026-06-26T03:24:47.433Z"
+  },
+  {
+    "id": 3,
+    "name": "Osaka",
+    "slug": "osaka",
+    "country": {
+      "id": 1,
+      "name": "Nhật Bản",
+      "slug": "japan",
+      "continent": "asia",
+      "description": [
+        {
+          "type": "p",
+          "children": [
+            {
+              "text": "Trải nghiệm sự hòa quyện giữa truyền thống cổ xưa và đổi mới hiện đại tại xứ sở mặt trời mọc."
+            }
+          ]
+        }
+      ],
+      "excerpt": "Trải nghiệm sự hòa quyện giữa truyền thống cổ xưa và đổi mới hiện đại tại xứ sở mặt trời mọc.",
+      "featuredImage": {
+        "id": 1,
+        "alt": "Ảnh nổi bật Nhật Bản",
+        "caption": "Khung cảnh Nhật Bản",
+        "credit": "Nhiếp ảnh du lịch",
+        "prefix": "media",
+        "updatedAt": "2026-06-26T03:24:46.814Z",
+        "createdAt": "2026-06-26T03:24:46.814Z",
+        "url": "/media/placeholder.png",
+        "filename": "placeholder.png",
+        "mimeType": "image/png",
+        "filesize": 91,
+        "width": 1,
+        "height": 1,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "gallery": [],
+      "currency": "JPY",
+      "language": "Tiếng Nhật",
+      "timezone": "JST (UTC+9)",
+      "bestTimeToVisit": "Tháng 3 đến tháng 5 và tháng 10 đến tháng 11.",
+      "metaTitle": "Cẩm nang du lịch Nhật Bản",
+      "metaDescription": "Trải nghiệm sự hòa quyện giữa truyền thống cổ xưa và đổi mới hiện đại tại xứ sở mặt trời mọc.",
+      "metaKeywords": "du lịch Nhật Bản, cẩm nang Nhật Bản, điểm đến Nhật Bản",
+      "status": "published",
+      "publishedAt": "2026-06-26T03:24:47.240Z",
+      "updatedAt": "2026-06-26T03:24:47.241Z",
+      "createdAt": "2026-06-26T03:24:47.241Z"
+    },
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Nhà bếp của Nhật Bản, thiên đường cho người yêu ẩm thực với đời sống đêm sôi động."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Nhà bếp của Nhật Bản, thiên đường cho người yêu ẩm thực với đời sống đêm sôi động.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Osaka",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "population": 2750000,
+    "coordinates": {
+      "latitude": 34.6937,
+      "longitude": 135.5023
+    },
+    "highlights": [],
+    "localTips": null,
+    "metaTitle": "Osaka | Cẩm nang thành phố",
+    "metaDescription": "Nhà bếp của Nhật Bản, thiên đường cho người yêu ẩm thực với đời sống đêm sôi động.",
+    "metaKeywords": "du lịch Osaka, điểm đến Osaka, cẩm nang Osaka",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.392Z",
+    "updatedAt": "2026-06-26T03:24:47.392Z",
+    "createdAt": "2026-06-26T03:24:47.392Z"
+  },
+  {
+    "id": 2,
+    "name": "Kyoto",
+    "slug": "kyoto",
+    "country": {
+      "id": 1,
+      "name": "Nhật Bản",
+      "slug": "japan",
+      "continent": "asia",
+      "description": [
+        {
+          "type": "p",
+          "children": [
+            {
+              "text": "Trải nghiệm sự hòa quyện giữa truyền thống cổ xưa và đổi mới hiện đại tại xứ sở mặt trời mọc."
+            }
+          ]
+        }
+      ],
+      "excerpt": "Trải nghiệm sự hòa quyện giữa truyền thống cổ xưa và đổi mới hiện đại tại xứ sở mặt trời mọc.",
+      "featuredImage": {
+        "id": 1,
+        "alt": "Ảnh nổi bật Nhật Bản",
+        "caption": "Khung cảnh Nhật Bản",
+        "credit": "Nhiếp ảnh du lịch",
+        "prefix": "media",
+        "updatedAt": "2026-06-26T03:24:46.814Z",
+        "createdAt": "2026-06-26T03:24:46.814Z",
+        "url": "/media/placeholder.png",
+        "filename": "placeholder.png",
+        "mimeType": "image/png",
+        "filesize": 91,
+        "width": 1,
+        "height": 1,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "gallery": [],
+      "currency": "JPY",
+      "language": "Tiếng Nhật",
+      "timezone": "JST (UTC+9)",
+      "bestTimeToVisit": "Tháng 3 đến tháng 5 và tháng 10 đến tháng 11.",
+      "metaTitle": "Cẩm nang du lịch Nhật Bản",
+      "metaDescription": "Trải nghiệm sự hòa quyện giữa truyền thống cổ xưa và đổi mới hiện đại tại xứ sở mặt trời mọc.",
+      "metaKeywords": "du lịch Nhật Bản, cẩm nang Nhật Bản, điểm đến Nhật Bản",
+      "status": "published",
+      "publishedAt": "2026-06-26T03:24:47.240Z",
+      "updatedAt": "2026-06-26T03:24:47.241Z",
+      "createdAt": "2026-06-26T03:24:47.241Z"
+    },
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Trái tim văn hóa của Nhật Bản với hàng nghìn ngôi chùa và khu vườn truyền thống."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Trái tim văn hóa của Nhật Bản với hàng nghìn ngôi chùa và khu vườn truyền thống.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Kyoto",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "population": 1460000,
+    "coordinates": {
+      "latitude": 35.0116,
+      "longitude": 135.7681
+    },
+    "highlights": [],
+    "localTips": null,
+    "metaTitle": "Kyoto | Cẩm nang thành phố",
+    "metaDescription": "Trái tim văn hóa của Nhật Bản với hàng nghìn ngôi chùa và khu vườn truyền thống.",
+    "metaKeywords": "du lịch Kyoto, điểm đến Kyoto, cẩm nang Kyoto",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.356Z",
+    "updatedAt": "2026-06-26T03:24:47.355Z",
+    "createdAt": "2026-06-26T03:24:47.355Z"
+  },
+  {
+    "id": 1,
+    "name": "Tokyo",
+    "slug": "tokyo",
+    "country": {
+      "id": 1,
+      "name": "Nhật Bản",
+      "slug": "japan",
+      "continent": "asia",
+      "description": [
+        {
+          "type": "p",
+          "children": [
+            {
+              "text": "Trải nghiệm sự hòa quyện giữa truyền thống cổ xưa và đổi mới hiện đại tại xứ sở mặt trời mọc."
+            }
+          ]
+        }
+      ],
+      "excerpt": "Trải nghiệm sự hòa quyện giữa truyền thống cổ xưa và đổi mới hiện đại tại xứ sở mặt trời mọc.",
+      "featuredImage": {
+        "id": 1,
+        "alt": "Ảnh nổi bật Nhật Bản",
+        "caption": "Khung cảnh Nhật Bản",
+        "credit": "Nhiếp ảnh du lịch",
+        "prefix": "media",
+        "updatedAt": "2026-06-26T03:24:46.814Z",
+        "createdAt": "2026-06-26T03:24:46.814Z",
+        "url": "/media/placeholder.png",
+        "filename": "placeholder.png",
+        "mimeType": "image/png",
+        "filesize": 91,
+        "width": 1,
+        "height": 1,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": "/media/null",
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "gallery": [],
+      "currency": "JPY",
+      "language": "Tiếng Nhật",
+      "timezone": "JST (UTC+9)",
+      "bestTimeToVisit": "Tháng 3 đến tháng 5 và tháng 10 đến tháng 11.",
+      "metaTitle": "Cẩm nang du lịch Nhật Bản",
+      "metaDescription": "Trải nghiệm sự hòa quyện giữa truyền thống cổ xưa và đổi mới hiện đại tại xứ sở mặt trời mọc.",
+      "metaKeywords": "du lịch Nhật Bản, cẩm nang Nhật Bản, điểm đến Nhật Bản",
+      "status": "published",
+      "publishedAt": "2026-06-26T03:24:47.240Z",
+      "updatedAt": "2026-06-26T03:24:47.241Z",
+      "createdAt": "2026-06-26T03:24:47.241Z"
+    },
+    "description": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Thủ đô sôi động của Nhật Bản, nơi đền cổ gặp gỡ công nghệ tương lai."
+          }
+        ]
+      }
+    ],
+    "excerpt": "Thủ đô sôi động của Nhật Bản, nơi đền cổ gặp gỡ công nghệ tương lai.",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Ảnh nổi bật Nhật Bản",
+      "caption": "Khung cảnh Tokyo",
+      "credit": "Nhiếp ảnh du lịch",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "population": 13960000,
+    "coordinates": {
+      "latitude": 35.6762,
+      "longitude": 139.6503
+    },
+    "highlights": [],
+    "localTips": null,
+    "metaTitle": "Tokyo | Cẩm nang thành phố",
+    "metaDescription": "Thủ đô sôi động của Nhật Bản, nơi đền cổ gặp gỡ công nghệ tương lai.",
+    "metaKeywords": "du lịch Tokyo, điểm đến Tokyo, cẩm nang Tokyo",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.328Z",
+    "updatedAt": "2026-06-26T03:24:47.328Z",
+    "createdAt": "2026-06-26T03:24:47.328Z"
+  }
+]

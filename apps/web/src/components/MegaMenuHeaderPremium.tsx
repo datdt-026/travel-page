@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslations, useCurrentLocale } from '@/components/LocaleProvider';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
@@ -49,6 +50,7 @@ function getMediaUrl(media: Media | string | undefined): string | undefined {
 export default function MegaMenuHeaderPremium({ forceTransparent = false, cmsConfig }: MegaMenuHeaderPremiumProps) {
   const dict = useTranslations();
   const currentLocale = useCurrentLocale();
+  const pathname = usePathname();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
@@ -56,7 +58,8 @@ export default function MegaMenuHeaderPremium({ forceTransparent = false, cmsCon
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
   const headerRef = useRef<HTMLElement>(null);
 
-  const effectiveIsScrolled = isMounted ? isScrolled : false;
+  const shouldUseSolidHeader = pathname?.includes('/feedback') || false;
+  const effectiveIsScrolled = isMounted ? isScrolled || shouldUseSolidHeader : shouldUseSolidHeader;
   const isTransparent = forceTransparent || !effectiveIsScrolled;
 
   const localePath = (path: string) => addLocaleToPathname(path, currentLocale);
@@ -111,6 +114,10 @@ export default function MegaMenuHeaderPremium({ forceTransparent = false, cmsCon
     contactDescription: isVietnamese
       ? 'Kết nối với đội ngũ của chúng tôi'
       : 'Get in touch with our team',
+    feedback: isVietnamese ? 'Phản hồi' : 'Feedback',
+    feedbackDescription: isVietnamese
+      ? 'Chia sẻ cảm nhận và góp ý sau hành trình'
+      : 'Share your travel experience and suggestions',
     fallbackMessage: isVietnamese
       ? 'Khám phá những hành trình khác biệt được tạo nên bằng sự tỉ mỉ và đam mê'
       : 'Discover extraordinary journeys crafted with precision and passion',
@@ -230,6 +237,11 @@ export default function MegaMenuHeaderPremium({ forceTransparent = false, cmsCon
           label: dict.common.contact, 
           href: '/contact', 
           description: headerText.contactDescription
+        },
+        {
+          label: headerText.feedback,
+          href: '/feedback',
+          description: headerText.feedbackDescription
         },
       ],
     },

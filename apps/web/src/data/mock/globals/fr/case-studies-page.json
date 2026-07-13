@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "title": "Case Studies",
+    "subtitle": "Success stories from our partners around the world",
+    "height": "medium",
+    "overlayStyle": "medium"
+  },
+  "intro": {
+    "enabled": true,
+    "eyebrow": "Our Track Record",
+    "title": "Trusted by Partners Worldwide"
+  },
+  "partnerLogos": {
+    "logos": [],
+    "enabled": true,
+    "title": "Partners We Work With"
+  },
+  "caseStudies": {
+    "items": [],
+    "enabled": true,
+    "eyebrow": "Success Stories",
+    "title": "Featured Case Studies"
+  },
+  "partnerStatements": {
+    "statements": [],
+    "enabled": true,
+    "title": "What Our Partners Say",
+    "layout": "horizontal"
+  },
+  "testimonials": {
+    "items": [],
+    "enabled": false,
+    "eyebrow": "Partner Feedback",
+    "title": "What Our Partners Say"
+  },
+  "partnershipTypes": {
+    "items": [],
+    "enabled": true,
+    "eyebrow": "How We Collaborate",
+    "title": "Partnership Models"
+  },
+  "cta": {
+    "enabled": true,
+    "title": "Join Our Partner Network",
+    "primaryButtonText": "Become a Partner",
+    "primaryButtonLink": "/partners/inquiry",
+    "secondaryButtonText": "Request References",
+    "secondaryButtonLink": "/contact"
+  },
+  "seo": {}
+}

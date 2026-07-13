@@ -1,0 +1,17 @@
+{
+  "brand": {},
+  "columns": [],
+  "newsletter": {
+    "enabled": true
+  },
+  "social": {
+    "links": [],
+    "enabled": true
+  },
+  "contact": {
+    "enabled": true
+  },
+  "bottomBar": {
+    "legalLinks": []
+  }
+}

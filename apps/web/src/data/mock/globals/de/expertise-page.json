@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "title": "Our Expertise",
+    "subtitle": "Comprehensive destination management services across Southeast Asia",
+    "height": "medium",
+    "overlayStyle": "medium"
+  },
+  "services": {
+    "items": [],
+    "enabled": true,
+    "eyebrow": "What We Do",
+    "title": "Comprehensive DMC Services",
+    "layout": "cards"
+  },
+  "coverage": {
+    "regions": [],
+    "enabled": true,
+    "eyebrow": "Where We Operate",
+    "title": "Destination Coverage"
+  },
+  "capacity": {
+    "items": [],
+    "enabled": true,
+    "eyebrow": "Our Capacity",
+    "title": "Operational Excellence"
+  },
+  "quality": {
+    "items": [],
+    "enabled": true,
+    "eyebrow": "Quality Assurance",
+    "title": "Our Commitments"
+  },
+  "whyUs": {
+    "items": [],
+    "enabled": true,
+    "eyebrow": "Why Partner With Us",
+    "ctaText": "Begin Partnership Inquiry",
+    "ctaLink": "/partners/inquiry"
+  },
+  "cta": {
+    "enabled": true,
+    "title": "Ready to Partner?",
+    "primaryButtonText": "Start a Partnership",
+    "primaryButtonLink": "/partners/inquiry",
+    "secondaryButtonText": "Download Credentials",
+    "secondaryButtonLink": "/about/credentials"
+  },
+  "seo": {}
+}

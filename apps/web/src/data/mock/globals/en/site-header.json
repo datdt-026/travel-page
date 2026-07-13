@@ -1,0 +1,13 @@
+{
+  "logo": {},
+  "navigation": [],
+  "ctaButton": {
+    "enabled": true,
+    "link": "/contact"
+  },
+  "settings": {
+    "showLanguageSwitcher": true,
+    "sticky": true,
+    "transparent": true
+  }
+}

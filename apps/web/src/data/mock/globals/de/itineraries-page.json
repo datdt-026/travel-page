@@ -1,0 +1,13 @@
+{
+  "hero": {},
+  "listing": {
+    "showFilters": true,
+    "showSearch": true,
+    "searchPlaceholder": "Search journeys..."
+  },
+  "emptyState": {
+    "title": "No journeys match your selection",
+    "message": "Try adjusting your filters to discover more."
+  },
+  "seo": {}
+}

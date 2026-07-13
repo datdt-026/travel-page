@@ -1,0 +1,24 @@
+{
+  "hero": {
+    "height": "large",
+    "overlayStyle": "medium",
+    "contentPosition": "bottom-left",
+    "textAlignment": "left",
+    "showBreadcrumb": true
+  },
+  "listing": {
+    "postsPerPage": 10,
+    "layout": "grid",
+    "columns": "3",
+    "showCategories": true,
+    "showSearch": true,
+    "showFeaturedSection": true,
+    "featuredPostsCount": 3
+  },
+  "emptyState": {
+    "title": "No Posts Yet",
+    "message": "Check back soon for new travel stories and tips!",
+    "showCTA": false
+  },
+  "seo": {}
+}

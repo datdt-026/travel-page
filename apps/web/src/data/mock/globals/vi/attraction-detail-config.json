@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "height": "large",
+    "overlayStyle": "medium",
+    "contentPosition": "bottom-left",
+    "showBreadcrumb": true,
+    "showCategory": true,
+    "showRating": true,
+    "animationStyle": "fade-up"
+  },
+  "contentLayout": {
+    "layout": "sidebar-right",
+    "sidebarWidth": "normal",
+    "contentMaxWidth": "default",
+    "stickybar": true
+  },
+  "sections": {
+    "showDescription": true,
+    "showTips": true,
+    "tipsStyle": "cards",
+    "showGallery": true,
+    "galleryStyle": "grid",
+    "galleryColumns": "3",
+    "showMap": true,
+    "showRelatedAttractions": true,
+    "relatedAttractionsLimit": 3,
+    "showNearbyAttractions": true
+  },
+  "sidebar": {
+    "showVisitorInfo": true,
+    "showLocation": true,
+    "showAddress": true,
+    "showOpeningHours": true,
+    "showTicketPrice": true,
+    "showVisitDuration": true,
+    "showWebsite": true,
+    "showShareButton": true,
+    "showBookingCTA": false
+  },
+  "labels": {},
+  "categoryLabels": [],
+  "schema": {
+    "enableJsonLd": true,
+    "schemaType": "TouristAttraction",
+    "enableOpenGraph": true,
+    "enableTwitterCard": true,
+    "twitterCardType": "summary_large_image"
+  }
+}

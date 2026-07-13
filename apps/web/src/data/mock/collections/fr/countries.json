@@ -1,0 +1,282 @@
+[
+  {
+    "id": 5,
+    "slug": "vietnam",
+    "continent": "asia",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Japan Featured Image",
+      "caption": "Beautiful view of Japan",
+      "credit": "Travel Photography",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "currency": "VND",
+    "language": "Vietnamese",
+    "timezone": "ICT (UTC+7)",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.313Z",
+    "updatedAt": "2026-06-26T03:24:47.313Z",
+    "createdAt": "2026-06-26T03:24:47.313Z"
+  },
+  {
+    "id": 4,
+    "slug": "italy",
+    "continent": "europe",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Japan Featured Image",
+      "caption": "Beautiful view of Japan",
+      "credit": "Travel Photography",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "currency": "EUR",
+    "language": "Italian",
+    "timezone": "CET (UTC+1)",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.299Z",
+    "updatedAt": "2026-06-26T03:24:47.299Z",
+    "createdAt": "2026-06-26T03:24:47.299Z"
+  },
+  {
+    "id": 3,
+    "slug": "thailand",
+    "continent": "asia",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Japan Featured Image",
+      "caption": "Beautiful view of Japan",
+      "credit": "Travel Photography",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "currency": "THB",
+    "language": "Thai",
+    "timezone": "ICT (UTC+7)",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.282Z",
+    "updatedAt": "2026-06-26T03:24:47.282Z",
+    "createdAt": "2026-06-26T03:24:47.282Z"
+  },
+  {
+    "id": 2,
+    "slug": "france",
+    "continent": "europe",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Japan Featured Image",
+      "caption": "Beautiful view of Japan",
+      "credit": "Travel Photography",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "currency": "EUR",
+    "language": "French",
+    "timezone": "CET (UTC+1)",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.263Z",
+    "updatedAt": "2026-06-26T03:24:47.262Z",
+    "createdAt": "2026-06-26T03:24:47.262Z"
+  },
+  {
+    "id": 1,
+    "slug": "japan",
+    "continent": "asia",
+    "featuredImage": {
+      "id": 1,
+      "alt": "Japan Featured Image",
+      "caption": "Beautiful view of Japan",
+      "credit": "Travel Photography",
+      "prefix": "media",
+      "updatedAt": "2026-06-26T03:24:46.814Z",
+      "createdAt": "2026-06-26T03:24:46.814Z",
+      "url": "/media/placeholder.png",
+      "filename": "placeholder.png",
+      "mimeType": "image/png",
+      "filesize": 91,
+      "width": 1,
+      "height": 1,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "card": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        },
+        "hero": {
+          "url": "/media/null",
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null
+        }
+      }
+    },
+    "gallery": [],
+    "currency": "JPY",
+    "language": "Japanese",
+    "timezone": "JST (UTC+9)",
+    "status": "published",
+    "publishedAt": "2026-06-26T03:24:47.240Z",
+    "updatedAt": "2026-06-26T03:24:47.241Z",
+    "createdAt": "2026-06-26T03:24:47.241Z"
+  }
+]

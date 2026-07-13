@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "height": "large",
+    "overlayStyle": "medium",
+    "contentPosition": "bottom-left",
+    "textAlignment": "left",
+    "showBreadcrumb": true
+  },
+  "search": {
+    "enabled": true,
+    "placeholder": "Search frequently asked questions..."
+  },
+  "listing": {
+    "showCategories": true,
+    "style": "accordion",
+    "allowMultipleOpen": false,
+    "expandFirstItem": true
+  },
+  "contactCta": {
+    "enabled": true,
+    "title": "Still have questions?",
+    "subtitle": "Can't find the answer you're looking for? Our team is here to help.",
+    "buttonText": "Contact Us",
+    "buttonLink": "/contact",
+    "backgroundColor": "light"
+  },
+  "emptyState": {
+    "title": "No FAQs Yet",
+    "message": "Check back soon or contact us directly with your questions."
+  },
+  "seo": {}
+}
